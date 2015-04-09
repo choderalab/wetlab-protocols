@@ -65,13 +65,14 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
    - It's not yet clear whether this should be conducted in a single culture,
    or should use a starter culture of 25 or 50mL.
 - Induce with IPTG
-   - It's not clear when this should happen--Sonya?
+   - Induce at OD600=0.6
 - Harvest cells mid-log phase (OD600=4.5)
 
 ### Preparation of harvested Cells
 
 - Wash cells in Buffer A 3 times
-   - 20mL buffer/g wet cells
+   - suspend in 20mL buffer/g wet cells
+   - centrifuge (speed not given)
 - Store wet pellets at -80C
 
 ### Thawing cells
