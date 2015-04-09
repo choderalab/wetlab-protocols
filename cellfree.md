@@ -48,15 +48,13 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
 - 34 μg/mL of L-5- formyl-5, 6, 7, 8-tetrahydrofolic acid (folinic acid) [1g for $186]
 - 1.2 mM AMP
 - 0.85 mM GMP,UMP,CMP* [5 g of each for ~$300 total]
-- 6.7 μg/mL of DNA
+- 6.7 μg/mL of DNA of expression construct
 - 27% (v/v) of cell-extract (S12 extract)
 
 **Important notes about precious reagents**
 - Glucose solutions should always be autoclaves ASAP, as it is easy for other organisms to grow in them.
-
 - On a first pass, we will use an amino acid mix for cell culture.
  - The papers cited indicated that a higher cysteine concentration was helpful.
-
 - Folinic acid appears to be much more soluble than folic acid, hence its usage
 
 ## Preparing the cell-free extract:
@@ -69,4 +67,20 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
    or should use a starter culture of 25 or 50mL.
 - Induce with IPTG
    - It's not clear when this should happen--Sonya?
- 
+- Harvest cells mid-log phase (OD600=4.5)
+
+### Preparation of harvested Cells
+
+- Wash cells in Buffer A 3 times
+   - 20mL buffer/g wet cells
+- Store wet pellets at -80C
+
+### Thawing cells
+
+- Thaw cells at -4C
+- Resuspend 10g thawed cells in 12.7mL buffer B
+- Disrupt in french press at 20,000psi
+   - Alternatively, use sonication
+- Centrifuge crude lysate at 12,000rcf for 10 min
+- Pre-incubate mixture at 37C for 30 min
+- Store aliquots at -80C
