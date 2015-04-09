@@ -48,7 +48,6 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
 - 34 μg/mL of L-5- formyl-5, 6, 7, 8-tetrahydrofolic acid (folinic acid) [1g for $186]
 - 1.2 mM AMP
 - 0.85 mM GMP,UMP,CMP* [5 g of each for ~$300 total]
-- 6.7 μg/mL of DNA of expression construct
 - 27% (v/v) of cell-extract (S12 extract)
 
 **Important notes about precious reagents**
@@ -84,6 +83,16 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
 - Centrifuge crude lysate at 12,000rcf for 10 min
 - Pre-incubate mixture at 37C for 30 min
 - Store aliquots at -80C
+
+## Cell-free protein production:
+This section pertains directly to producing protein once all other components are made.
+
+- Aliquot expression buffer into reaction vessels
+   - Should these be 1mL in 1.5mL? The only cited quantity was in 15uL
+- Add 6.7 μg/mL of DNA of expression construct
+- Incubate at 37C for 180min
+   - The references cite methods to extend this, which may prove useful.
+- Purify protein using relevant technique.
 
 
 # Citations
