@@ -84,3 +84,9 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
 - Centrifuge crude lysate at 12,000rcf for 10 min
 - Pre-incubate mixture at 37C for 30 min
 - Store aliquots at -80C
+
+
+# Citations
+- (Kim, et al. Biotechnology and Bioprocess Engineering 2008, 13: 464-469)
+- (Biotechnol. Prog. 2005, 21, 1146−1153) for the initial NMP version
+- Kim et al. combined it with the S12 (non-dialyzed) extract.
