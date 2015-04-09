@@ -35,3 +35,38 @@ We currently have this buffer without the TCEP in the 4C refrigerator. It is fil
 ### Expression buffer
 
 #### Bulk reagents:
+- 240 mM of HEPES-KOH (pH 8.2)
+- 90 mM potassium phosphate dibasic (pH 7.2)
+- 90 mM of potassium glutamate
+- 80 mM of ammonium acetate
+- 8 mM of magnesium acetate
+- 2 mM of TCEP
+
+#### Precious reagents:
+- 60 mM of glucose [cheap, but need to be careful about autoclaving]
+- 2.1 mM each of 20 amino acids
+- 34 μg/mL of L-5- formyl-5, 6, 7, 8-tetrahydrofolic acid (folinic acid) [1g for $186]
+- 1.2 mM AMP
+- 0.85 mM GMP,UMP,CMP* [5 g of each for ~$300 total]
+- 6.7 μg/mL of DNA
+- 27% (v/v) of cell-extract (S12 extract)
+
+**Important notes about precious reagents**
+- Glucose solutions should always be autoclaves ASAP, as it is easy for other organisms to grow in them.
+
+- On a first pass, we will use an amino acid mix for cell culture.
+ - The papers cited indicated that a higher cysteine concentration was helpful.
+
+- Folinic acid appears to be much more soluble than folic acid, hence its usage
+
+## Preparing the cell-free extract:
+
+### Growth of Bacteria.
+
+- Initiate a culture of BL21 DE3 non-pLysS cells in 1.5L autoinduction media
+   - Rosetta2 cells are acceptable here as well
+   - It's not yet clear whether this should be conducted in a single culture,
+   or should use a starter culture of 25 or 50mL.
+- Induce with IPTG
+   - It's not clear when this should happen--Sonya?
+ 
