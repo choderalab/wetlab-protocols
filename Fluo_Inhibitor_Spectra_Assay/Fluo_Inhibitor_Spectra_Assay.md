@@ -16,7 +16,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM S
 - Convert to moles (MW of Src is 32.5 kDa).
 - Add appropriate amount to total 14 mL.
 - Run maintenance script MAINT_Wash on EVO.
-- Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 50 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate.
+- Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 50 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
 - Place 1 clean 4ti_0234 (96 well, clear) plate in Stack 4 of cytomat (Nest 1).
 - Run Momentum Script. Make sure to name the four infinite output files accordingly.
