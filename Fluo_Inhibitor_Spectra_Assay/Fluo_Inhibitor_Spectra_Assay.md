@@ -1,7 +1,8 @@
 
-This protocol fills one plate with alternating rows of Protein in Buffer (1 uM Src) and just Buffer. Each well is 100 uL and dispensed using single pipetting in two 96 well plates. Ligands are then added to rows A, C, E, G in a half log dilution starting from 20 uM using the D300. The rest of the rows are filled with DMSO. The plate then gets shaken to mix, centrifuged and the fluorescence read.
+This protocol fills one plate with alternating rows of Protein in Buffer (1 uM Src) and just Buffer. Each well is 100 uL and dispensed using single pipetting into 96 well plates. Four different ligands are then added in a half log dilution starting from 20 uM using the D300. The plate then gets shaken to mix, centrifuged and the fluorescence read.
 
-##Relevant Scripts
+##Relevant Scripts 
+(These scripts names will be modified to more general names and using letters instead of numbers for rows)
 - Momentum Process: WIP_LRL_FLU_Spectra
 - Momentum Experiment: E_WIP_LRL_FLU_Spectra
 - EVO Scripts: WIP_LRL_FLU_Spectra_1_2_diff_carrier.esc, WIP_LRL_FLU_Spectra_3_4_diff_carrier.esc, WIP_LRL_FLU_Spectra_5_6_diff_carrier.esc and WIP_LRL_FLU_Spectra_7_8_diff_carrier.esc
@@ -16,6 +17,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM S
 - Convert to moles (MW of Src is 32.5 kDa).
 - Add appropriate amount to total 14 mL.
 - Run maintenance script MAINT_Wash on EVO.
+- Run maintenance script 
 - Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 50 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
 - Place 1 clean 4ti_0234 (96 well, clear) plate in Stack 4 of cytomat (Nest 1).
