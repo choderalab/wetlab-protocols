@@ -1,6 +1,8 @@
 
 This protocol fills one plate with alternating rows of Protein in Buffer (1 uM of kinase) and just Buffer. Each well is 100 uL and dispensed using single pipetting into 96 well plates. Four different ligands are then added in a half log dilution starting from 20 uM using the D300. The plate then gets shaken to mix, centrifuged and the fluorescence read.
 
+![alt text](img/inhibitorsetup.png "Inhibitor_setup.png")
+
 ##Relevant Scripts 
 (These scripts names will be modified to more general names and using letters instead of numbers for rows)
 - Momentum Process: WIP_LRL_FLU_Spectra
