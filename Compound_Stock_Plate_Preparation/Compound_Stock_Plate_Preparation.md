@@ -2,6 +2,8 @@
 
 This protocol fills 4ti0110 plates with 10mM DMSO stocks. Each well is filled with 100uL of stock solution. The plate then gets sealed (this seal can be pierced in other experiments). 
 
+![alt text](img/compoundsetup.png "Compound_setup.png")
+
 ## Relevant Scripts
 - Momentum Process: WIP_JDC_PrepareCompoundStockPlates_4ti0110
 - Momentum Experiment: E_WIP_JDC_PrepareCompoundStockPlates_4ti0110
