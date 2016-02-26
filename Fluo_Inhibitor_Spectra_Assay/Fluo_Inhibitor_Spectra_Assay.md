@@ -24,7 +24,8 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Set DiTi position on EVOware.
 - Set the compound stock plate aspiration position on EVOware (Step 16 on EVOware scripts). 
 - Place 1 clean 4ti_0234 (96 well, clear) plate in Stack 4 of cytomat (Nest 1).
-- Run Momentum Script. Make sure to name the four infinite output files accordingly.
+- Make sure to name the four infinite output files accordingly.
+- Run Momentum Script. E_WIP_LRL_FLU_Spectra
 - Infinite results file will be output to Google Drive (choderalab/automation/protocols/infinite/results).
 - Using assaytools run xml2png4scans-spectra.py on output xml files.
 
