@@ -19,7 +19,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Convert to moles (MW of Src is 32.5 kDa).
 - Add appropriate amount to total 14 mL.
 - Run maintenance scripts: MAINT_Wash and MAINT_Rehome on EVO.
-- Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 50 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
+- Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 200 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
 - Set DiTi position on EVOware.
 - Set the compound stock plate aspiration position on EVOware (Step 16 on EVOware scripts). 
