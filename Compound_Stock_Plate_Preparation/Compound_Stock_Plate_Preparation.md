@@ -19,3 +19,5 @@ This protocol fills 4ti0110 plates with 10mM DMSO stocks. Each well is filled wi
 - Place the 10mM DMSO stock vial holder (Source Plate) in the 27 postion of EVO. (Purple rectangle)
 - Run Momentum Script. E_WIP_JDC_PrepareCompoundStockPlates_4ti0110
 
+## Storage
+- Store in room temperature PlateStable.
