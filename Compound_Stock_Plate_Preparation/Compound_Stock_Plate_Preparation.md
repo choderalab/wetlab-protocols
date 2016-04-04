@@ -21,3 +21,4 @@ This protocol fills 4ti0110 plates with 10mM DMSO stocks. Each well is filled wi
 
 ## Storage
 - Store in room temperature PlateStable.
+- Compound stock plates should be kept only for a couple of weeks at most.
