@@ -11,14 +11,23 @@
 # p38 MK14: MW 41293.2 Da, 49850 M^-1 cm^-1 => Cys residues reduced
 # CAII bovine: MW 29113.7 Da, 50420 M^-1 cm^-1
 
-Src_WT = 32689.6
-Src_T338I = 33507.5
-Abl_D382N = 33273.1
-Abl_D382N_T334I = 33285.2
-p38_MK14 = 41293.2
-CAII_bovine = 29113.7
+proteindict = {}
+proteindict['Src_WT'] = 32689.6
+proteindict['Src_T338I'] = 33507.5
+proteindict['Abl_D382N'] = 33273.1
+proteindict['Abl_D382N_T334I'] = 33285.2
+proteindict['p38_MK14'] = 41293.2
+proteindict['CAII_bovine'] = 29113.7
+
+#Src_WT = 32689.6
+#Src_T338I = 33507.5
+#Abl_D382N = 33273.1
+#Abl_D382N_T334I = 33285.2
+#p38_MK14 = 41293.2
+#CAII_bovine = 29113.7
 
 concentration = input("What is the concentration of the protein in mg/mL? ")
+print proteindict.keys()
 molecular_weight = input("What is the name or molecular weight of the protein? ")
 molarity_input = input("At what concentration you need the protein, 1 uM or 0.5 uM (molarity)? ")
 molarity_2 = molarity_input * 0.0000010
