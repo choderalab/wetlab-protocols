@@ -31,8 +31,8 @@ At the balance:
 - Type Expiry days.
 - Enter "3" as the number of variables.
 - Type Cat No as the first variable and type in value.
-- Type Molecular Weight (MV) as the second variable and type in value.
-- Type User as the second variable and type in your name. 
+- Type Molecular Weight (MW) as the second variable and type in value.
+- Type User as the third variable and type in your name. 
 - Print label and put it on dosing head.
 
 ### Filling vial with solid compound and DMSO
