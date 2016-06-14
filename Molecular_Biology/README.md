@@ -1,6 +1,6 @@
-***Implementing the Molecular Biology Pipeline in the Chodera Lab 
+#Implementing the Molecular Biology Pipeline in the Chodera Lab 
 
-****Planned Features
+##Planned Features
 * `PCR` (manual and 96-well format) 
 * `PCR Cleanup` (manual and 96-well format) 
 * `Ligation Independent Cloning` 
@@ -9,7 +9,7 @@
 * `Plasmid Prep`
 
 
-*****Collaborators 
+###Collaborators 
 * Steven Albanese 
 * Mehtap Isik 
 * Andrea Rizzi 
