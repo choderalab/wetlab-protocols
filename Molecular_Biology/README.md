@@ -1,14 +1,14 @@
 #Implementing the Molecular Biology Pipeline in the Chodera Lab 
 
 ##Planned Features
-Feature | Progress 
---------|-----------
-PCR (manual and 96-well format) | basic protocol written 
-PCR Cleanup (manual and 96-well format) |basic protocol written 
-Ligation Independent Cloning | missing LIC treatment for vector in protocol 
-Transformations| basic protocol written 
-Clone Selection| basic protocol written 
-Plasmid Prep| basic protocol written 
+Feature | Progress | Materials in stock?
+--------|----------|--------------------
+PCR (manual and 96-well format) | basic protocol written | `Manual`: yes `automated`: no
+PCR Cleanup (manual and 96-well format) |basic protocol written| `Manual`: no `automated`: no
+Ligation Independent Cloning | missing LIC treatment for vector in protocol| no
+Transformations| basic protocol written | yes 
+Clone Selection| basic protocol written | yes
+Plasmid Prep| basic protocol written | no (plates ordered, buffers need to be made) 
 
 
 ###Collaborators 
