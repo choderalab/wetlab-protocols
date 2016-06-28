@@ -9,9 +9,9 @@
 * dispense 10 uL master mix into each well of PCR plate [96-well dispense]
 * transfer 3 uL forward primer from each source well to each destination well [96-well transfer]
 * transfer 3 uL reverse primer from each source well to each destination well [96-well transfer]
-* transfer 
+* transfer 4 uL of plasmid from source to each destination well [96-well dispense]
 
-PCR [may need to be manual]
+* move PCR plate off of Evo 
 * seal plate with adhesive film or foil to prepare for PCR
 * place in PCR machine and run PCR program
 * spin down
