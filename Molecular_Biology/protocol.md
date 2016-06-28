@@ -1,12 +1,15 @@
 #Protocols (WIP)
 
 ###PCR setup
-*source: source 96-well plates of 10 uM normalized primers (one forward plate, one reverse plate)
-* source: ice-cold 4.2 mL master mix with template (4C?)
-* destination: 96-well PCR plate at 4C
-* dispense 42 uL master mix into each well of PCR plate [96-well dispense]
+* source: source 96-well plates of 5 uM normalized primers (one forward plate, one reverse plate)
+* source: ice-cold 1.25 mL master mix with template (4C?)
+* source: 450 uL of 1.25 ng/uL DNA plasmid 
+
+* destination: 384-well PCR plate at 4C, using 20  uL reaction volumes 
+* dispense 10 uL master mix into each well of PCR plate [96-well dispense]
 * transfer 3 uL forward primer from each source well to each destination well [96-well transfer]
 * transfer 3 uL reverse primer from each source well to each destination well [96-well transfer]
+* transfer 
 
 PCR [may need to be manual]
 * seal plate with adhesive film or foil to prepare for PCR
