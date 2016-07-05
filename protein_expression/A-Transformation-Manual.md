@@ -7,6 +7,8 @@ https://www.agilent.com/cs/library/usermanuals/public/230240.pdf
 
 SUMMARY:
 
+With this transformation protocol introduce your plasmid of choice into your competent cells of choice.
+
 TIMING: 2 HRs + OVERNIGHT
 
 MATERIALS:
