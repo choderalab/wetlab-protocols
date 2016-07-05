@@ -1,6 +1,6 @@
 MANUAL PROTOCOL A
 
-A. **Transformation	**			
+A. **Transformation**			
 
 Adapted from:
 https://www.agilent.com/cs/library/usermanuals/public/230240.pdf
