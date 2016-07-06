@@ -1,6 +1,6 @@
 MANUAL PROTOCOL C
 
-C.**Large Scale Protein Purification**
+C. **Large Scale Protein Purification**
 
 Adapted from:
 Seeliger lab Src Expression Protocol.
@@ -18,14 +18,19 @@ MATERIALS:
 - 0.2 µm filter
 
 BUFFERS:
+
 **Nickel Buffer A**
 25 mM Tris pH 8.0, 500 mM Na Cl, 5% Glycerol, 20 mM Imidazole
+
 **Nickel Buffer B**
 25 mM Tris pH 8.0, 500 mM Na Cl, 5% Glycerol, 400 mM Imidazole
+
 **Desalting Buffer**
 25 mM Tris, pH 8.0, 100 mM NaCl, 5% Glycerol, 1 mM DTT (or equiv)
+
 **IEX Buffer A**
 25 mM Tris, pH 8.0, 5% Glycerol, 1 mM DTT (or equiv)
+
 **IEX Buffer B**
 25 mM Tris, pH 8.0, 1M NaCl, 5% Glycerol, 1 mM DTT (or equiv)
 
