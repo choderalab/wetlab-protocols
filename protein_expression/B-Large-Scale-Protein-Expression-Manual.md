@@ -1,4 +1,4 @@
-B-MANUAL PROTOCOL B
+MANUAL PROTOCOL B
 
 B. **Large Scale Protein Expression**
 
