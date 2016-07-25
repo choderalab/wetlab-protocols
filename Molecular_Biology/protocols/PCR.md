@@ -1,6 +1,4 @@
-Module 1: PCR protocol 
-
-**96-well PCR protocol**
+**Moedule 1: 96-well PCR protocol**
 
 SUMMARY: 
 This protocol will generate a 96-well plate of unique PCR products, that will serve as the source for the upcoming PCR cleanup protocol. This protocol uses 20uL reaction volumes 
