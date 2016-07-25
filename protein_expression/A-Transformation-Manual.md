@@ -38,5 +38,5 @@ PROTOCOL:
 
 NOTES:
 
--	If colonies do not appear: check that you used the right antibiotics, check temperatures of incubators, or try adjusting amount of DNA.
+-	If colonies do not appear: check that you used the right antiboitics, check temperatures of incubators, or try adding more DNA.
 
