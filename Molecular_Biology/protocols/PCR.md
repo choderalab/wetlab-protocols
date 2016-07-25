@@ -1,11 +1,11 @@
-**Moedule 1: 96-well PCR protocol**
+##Module 1: 96-well PCR protocol
 
-SUMMARY: 
+###SUMMARY: 
 This protocol will generate a 96-well plate of unique PCR products, that will serve as the source for the upcoming PCR cleanup protocol. This protocol uses 20uL reaction volumes 
 
-TIMING: Less than 1 day (2-3 hours) 
+###TIMING: Less than 1 day (2-3 hours) 
 
-MATERIALS: 
+###MATERIALS: 
 - 2 4ti-110 96-well, round bottom plates with 5 uM normalized primers (50-100uL in each well) 
   - 12 forward primers 
   - 8 reverse primers 
@@ -18,21 +18,21 @@ MATERIALS:
   - Evo: `WIP_PCRsetup_SKA_AXR`, `WIP_SKA_precool` 
   - Momentum: `WIP_PCR_SKA`
 
-INPUT/OUTPUT: 
+###INPUT/OUTPUT: 
 - Input: a plate with forward primers, a plate with reverse primers, an eppendorf tube of template DNA plasmid 
 - Output: a sealed 96-well plate of PCR product
 
-BUFFERS: 
+###BUFFERS: 
 - None
 
-EQUIPMENT: 
+###EQUIPMENT: 
 - EVO
 - LC480
 - Centrifuge on automation desk 
 - Plateloc 
 - INHECO incubator 
 
-Protocol: 
+###Protocol: 
 
 1. Run `WIP_SKA_precool` to precool metal microfuge tube adaptor for about 15-25 minutes 
 2. Place Master Mix in well A1 (red) in metal microfuge tube adaptor, and template DNA in B1 (blue) 
@@ -40,5 +40,5 @@ Protocol:
 4. Put forward primer (purple) and reverse primer (orange) plates directly into carrier 
 5. Run experiment based on Momentum script `WIP_PCR_SKA` 
 
-NOTES: 
+###NOTES: 
 - Still working on how to get variables to work correctly, so that the plate is labeled with the correct information 
