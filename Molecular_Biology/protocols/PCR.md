@@ -35,7 +35,7 @@ This protocol will generate a 96-well plate of unique PCR products, that will se
 ###Protocol: 
 ![Image of workbench](https://github.com/choderalab/lab-protocols/blob/molecular_biology/Molecular_Biology/protocols/img/PCR_Workbench.png)
 
-1. Run EVO script`WIP_SKA_precool` directly to precool metal microfuge tube adaptor for about 15-25 minute. Abort script when plate is around 4C 
+1. Run EVO script`WIP_SKA_precool` directly to precool metal microfuge tube adaptor for about 15-25 minute. Abort script when plate is around 4C
 2. Place Master Mix in well A1 (red) in metal microfuge tube adaptor, and template DNA in B1 (blue) 
 3. Place 394-well PCR plate in 1st red carrier (green)
 4. Put forward primer (purple) and reverse primer (orange) plates directly into carrier 
