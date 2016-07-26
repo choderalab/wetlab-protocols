@@ -3,7 +3,7 @@
 ##Planned Features
 Feature | Progress | Materials in stock?
 --------|----------|--------------------
-PCR (manual and 96-well format) | automated protcol written, not tested | `Manual`: yes `automated`: yes
+PCR (manual and 96-well format) | script tested | `Manual`: yes `automated`: yes
 PCR Cleanup (manual and 96-well format) |basic protocol written| `Manual`: yes `automated`: yes
 Ligation Independent Cloning | missing LIC treatment for vector in protocol| yes
 Transformations| basic protocol written | yes 
