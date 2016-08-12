@@ -13,8 +13,8 @@ This protocol will generate a 96-well plate of unique PCR products, that have be
 - 96 well 4ti-110 plate (Destination plate)
 - Omega 10k MWCO Pall plate 96 well plate
 - Scripts
-  - Evo: WIP
-  - Momentum: WIP
+  - Evo: "WIP_SKA_PCRCleanup"
+  - Momentum: "WIP_PCRCleanup_SKA"
 
 ###INPUT/OUTPUT: 
 - Input: a sealed, 384 well plate with PCR product 
@@ -40,4 +40,3 @@ This protocol will generate a 96-well plate of unique PCR products, that have be
 - Still need to create the correct plate classes for the new filter plate
 - Need to create the correct plate for plate piercing for the 384-well source plate
 - Don't have the 10 uL tip boxes at the moment, so I'll need to update the tips on the evo script once we get those
--
