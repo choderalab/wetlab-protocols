@@ -42,4 +42,5 @@ This protocol will generate a 96-well plate of unique PCR products, that will se
 5. Run experiment based on Momentum script `WIP_PCR_SKA` 
 
 ###NOTES: 
-- Still working on how to get variables to work correctly, so that the plate is labeled with the correct information 
+- Still having trouble with the labeling format, but the barcode should have all of the relevent data
+- Will switch over to tip
