@@ -41,6 +41,12 @@ This protocol will generate a 96-well plate of unique PCR products, that will se
 4. Put forward primer (purple) and reverse primer (orange) plates directly into carrier 
 5. Run experiment based on Momentum script `WIP_PCR_SKA` 
 
+####PCR reaction Specifics: 
+- 3 uL of 5uM forward primer
+- 3 uL of 5uM reverse primer
+- 4 uL of 1.25ng/uL template DNA (plasmid) 
+- 10 uL of Master Mix 
+
 ###NOTES: 
 - Still having trouble with the labeling format, but the barcode should have all of the relevent data
 - Will switch over to tip

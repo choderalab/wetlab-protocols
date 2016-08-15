@@ -21,7 +21,7 @@ This protocol will generate a 96-well plate of unique PCR products, that have be
 - Output: a sealed, 96 well plate with cleaned up PCR product ready for LIC 
 
 ###BUFFERS: 
-- None
+- TE buffer (see above) 
 
 ###EQUIPMENT: 
 - EVO
