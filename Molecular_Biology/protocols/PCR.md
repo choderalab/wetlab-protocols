@@ -37,9 +37,10 @@ This protocol will generate a 96-well plate of unique PCR products, that will se
 
 1. Run EVO script`WIP_SKA_precool` directly to precool metal microfuge tube adaptor for about 15-25 minute. Abort script when plate is around 4C
 2. Place Master Mix in well A1 (red) in metal microfuge tube adaptor, and template DNA in B1 (blue) 
-3. Place 394-well PCR plate in 1st red carrier (green)
+3. Place 394-well PCR plate in the next you want to specify in the `step 5`
 4. Put forward primer (purple) and reverse primer (orange) plates directly into carrier 
-5. Run experiment based on Momentum script `WIP_PCR_SKA` 
+5. Run experiment based on Momentum script `WIP_PCR_SKA`. 
+    - make sure to specify the nest that you put the 384-well plate in at `step 3`
 
 ####PCR reaction Specifics: 
 - 3 uL of 5uM forward primer
@@ -48,5 +49,5 @@ This protocol will generate a 96-well plate of unique PCR products, that will se
 - 10 uL of Master Mix 
 
 ###NOTES: 
-- Still having trouble with the labeling format, but the barcode should have all of the relevent data
+- Still having trouble with the labeling format, but the barcode should have all of the relevant data
 - Will switch over to tip

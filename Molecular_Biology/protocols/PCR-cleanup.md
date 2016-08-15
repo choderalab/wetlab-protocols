@@ -33,6 +33,7 @@ This protocol will generate a 96-well plate of unique PCR products, that have be
 
 
 1) Set up evo workbench by moving vacuum filter into place and loading 10 uL tips into the correct carrier (as shown above)
+2) Load buffer and water troughs **[Need to specify this in picture]**
 2) Place 10K omega filter plate on the vacuum manifold
 3) Create experiment and run `WIP_PCRCleanup_SKA` script in Momentum
 4) Load the source and destination plates in the appropriate nest specified in the experiment creation
