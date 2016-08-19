@@ -12,6 +12,7 @@
 ### Q. How do I remove my samples from the Cytomat?
 
 A. Follow this procedure:
+
 1. Disable Cytomat in Momentum (right-click, disable)
 2. Turn off green glowing switch on side of Cytomat
 3. Rotate cytomat from the round base plate
