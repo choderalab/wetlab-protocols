@@ -40,9 +40,9 @@ This protocol is preceded by Manual Protocol B: Large Scale Protein Expression (
 
 PROTOCOL:
 
-1.	Keep Avestin C3 Homogenizer’s cell compartment at 4ºC the night before using it. Break cells with the homogenizer **3x at ~20 kpsi**. (Be sure to wash and store homogenizer properly.)  Collect a LYSATE sample for a gel.
-2.	Spin down cell debris for 40 minutes at 4ºC 40 krpm in SA600 rotor (or equivalent for available rotor). Collect a SUPERNATANT sample for a gel.
-3.	Load clarified lysate onto *5mL HisTrap FF Crude Column*, pre-equilibrated with Nickel Buffer A, at 2-3 mL/min. Collect a FLOW THROUGH sample for a gel.
+1.	Keep Avestin C3 Homogenizer’s cell compartment at 4ºC the night before using it. Break cells with the homogenizer **3x at ~15 kpsi**. (Be sure to wash and store homogenizer properly.)  Collect a LYSATE sample for a gel.
+2.	Spin down cell debris for 40 minutes at 4ºC 30 000 g in SA600 rotor (or equivalent for available rotor). Collect a SUPERNATANT sample for a gel.
+3.	Load clarified lysate onto *5mL HisTrap FF Column*, pre-equilibrated with Nickel Buffer A, at 2-3 mL/min. Collect a FLOW THROUGH sample for a gel.
 4.	Wash resin with 5 column volumes **Nickel Buffer A**. Collect a WASH sample for a gel. Elute in ‘gradient’ with **Nickel Buffer B**.  Fraction collector will collect NI FRACTIONS, which will subsequently be run on a gel.
 5.	Check samples in Caliper. Pool fractions with protein in them. Buffer exchange on *HiPrep 26/10 Desalting Column* into **Desalting Buffer**. Collect a DESALT sample for a gel
 6.	Add 1:20 mass ratio TEV protease to pooled samples. Incubate at **overnight for 4ºC** or (RT for 2 hours).
@@ -52,7 +52,7 @@ PROTOCOL:
 
 NOTES:
 
-- Note which centrifuge, centrifuge bottles, and rotor that must be used, and rpm. Find whatever times/speeds/rotors/tubes were used for Aurora purification.
+- We had several problems with the right settings on the BioRad NGC during the first run through of this protocol. The final methods will be noted here when they are error-free. If you are making new scripts be particularly careful of the sample application step: do you have the correct port? are you loading the sample directly onto the column and not the sample loop? have you given the method the correct sample volume?
 - Record gel images, and final concentration, and any observations.
 
 
