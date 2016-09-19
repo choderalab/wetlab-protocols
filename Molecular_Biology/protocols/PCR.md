@@ -50,4 +50,4 @@ This protocol will generate a 96-well plate of unique PCR products, that will se
 
 ###NOTES: 
 - Still having trouble with the labeling format, but the barcode should have all of the relevant data
-- Will switch over to tip
+- Will switch over to SBS tips when they arrive 

@@ -14,8 +14,8 @@ This protocol will generate 2x 96-well plates of PCR products ready for LIC. One
    + 19.6 uL/rxn nuclease-free ddH2O
 - 96-well plate of cleaned up PCR product (6uL/rxn) 
 - Scripts
-  - Evo: `WIP_SKA_precool` 
-  - Momentum: 
+  - Evo: `WIP_SKA_LIC_prep`, `WIP_SKA_LIC_incubation`
+  - Momentum: `WIP_SKA_LIC_prep`
 
 ###INPUT/OUTPUT: 
 - Input: a cleaned up 96-well plate of PCR products, tube of dCTP master mix, tube of dGTP master mix  
@@ -32,7 +32,12 @@ This protocol will generate 2x 96-well plates of PCR products ready for LIC. One
 
 ###Protocol: 
 
+![Image of workbench](https://github.com/choderalab/lab-protocols/blob/molecular_biology/Molecular_Biology/protocols/img/LIC_prep_deck.png)
+
 1. Make two aliquots of `dCTP Master Mix` and two aliquots of `dGTP Master Mix` on ice 
-2. Transfer master mixes to precooled Torrey Pines block
+2. Transfer master mixes ependorf block on decklayout as above 
+3. Load source cleaned up PCR product plate and two empty 96-well plates into nest specified when creating the experiment 
+4. Run experiment based on `WIP_SKA_LIC_prep` in momentum 
 
 ###NOTES: 
+Still need to get plate piercing working for 384 well plate 

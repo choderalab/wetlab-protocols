@@ -40,6 +40,5 @@ This protocol will generate a 96-well plate of unique PCR products, that have be
 
 
 ###NOTES: 
-- Still need to create the correct plate classes for the new filter plate
-- Need to create the correct plate for plate piercing for the 384-well source plate
 - Don't have the 10 uL tip boxes at the moment, so I'll need to update the tips on the evo script once we get those
+- need to fix seal piercing for the 384-well plates 
