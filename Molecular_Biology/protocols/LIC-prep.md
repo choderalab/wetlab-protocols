@@ -40,4 +40,4 @@ This protocol will generate 2x 96-well plates of PCR products ready for LIC. One
 4. Run experiment based on `WIP_SKA_LIC_prep` in momentum 
 
 ###NOTES: 
-Still need to get plate piercing working for 384 well plate 
+ 
