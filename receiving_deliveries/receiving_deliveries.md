@@ -5,9 +5,9 @@
 2. If it is not a chemical but a wetlab consumable, record it in [Master Consumables Inventory](https://docs.google.com/spreadsheets/d/1CiP7uYrjyv9ltk02AqKvY3_4E6dxD82QuPtC2JIxBGI/edit#gid=0). Check Please record the amount received and the storing location, again using the wetlab/drylab position labels. 
 
 3. For chemical compounds, please add them to the [MSKCC chemical inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1SOwhfuDNn6Vuom2MKBMirPzldHBIgRBnxtSEdpcPH20/edit?usp=sharing)
- Depending on storage instuctions pick the storage area and record it in [Dessicator Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1TAhKhrfAdcbwQxWJdWEWP7ud2vQjalPZKtHsQDj2Vkc/edit?usp=sharing), [PlateStable Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1G5QUp8qXdvego0RQgK76sPDZQAlD6N8Jy37FBhYllTk/edit?usp=sharing) or [Freezer Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1F-x4JrbIAd96WqROiASZuANYdQVlM8HLVpmyp_6wbBY/edit?usp=sharing).
+ Depending on storage instuctions pick the storage area and record the item it in [Dessicator Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1TAhKhrfAdcbwQxWJdWEWP7ud2vQjalPZKtHsQDj2Vkc/edit?usp=sharing), [PlateStable Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1G5QUp8qXdvego0RQgK76sPDZQAlD6N8Jy37FBhYllTk/edit?usp=sharing) or [Freezer Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1F-x4JrbIAd96WqROiASZuANYdQVlM8HLVpmyp_6wbBY/edit?usp=sharing).
  
-4. For chemicals  make sure to download the corresponding SDS from the supplier or using the MSKCC service. Print and add them to the SDS binder in wetlab and put them in the google drive [SDS folder](https://drive.google.com/a/choderalab.org/folderview?id=0B2aRcG3eE40xM0FWREROaVR1MVE&usp=sharing).
+4. For chemicals  make sure to download the corresponding SDS from the supplier or using the MSKCC service. Print and add them to the SDS binder in wetlab and put them in the google drive [SDS folder](https://drive.google.com/drive/folders/0B075He2poqy1OWZlSEw5cFlhaXc?usp=sharing).
 
 5. All documents related to delivery must be ScanSnap'ed. 
 
