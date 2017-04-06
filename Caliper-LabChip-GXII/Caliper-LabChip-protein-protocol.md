@@ -18,7 +18,8 @@ Link to [Protein Assay Quick Guide](https://drive.google.com/a/choderalab.org/fi
 2. Take out HT Protein Express LabChip and from HT Protein Express Reagent Kit from 4°C fridge and let equilibriate for 20-30 minutes.
 3. Follow Protein Express Chip Preparation instructions using reverse pipetting technique to avoid bubbles:
 ![reverse_pipetting](https://cloud.githubusercontent.com/assets/8997658/24774599/907de10c-1ae7-11e7-936b-ab114a99252f.png)
-<img width="704" alt="screen shot 2017-04-06 at 4 21 09 pm" src="https://cloud.githubusercontent.com/assets/8997658/24774002/43ead202-1ae5-11e7-9d5b-26910952b301.png">
+<img width="704" alt="screen shot 2017-04-06 at 4 21 09 pm" src="https://cloud.githubusercontent.com/assets/8997658/24774002/43ead202-1ae5-11e7-9d5b-26910952b301.png">  
+
 * Numbers in wells indicate how much µL of reagent needs to be added to each well. 
 * In step 7 of express chip preparation: Add at least 50 uL lower marker to well 4.
 * Be careful not to bend the sipper tube below the chip.
