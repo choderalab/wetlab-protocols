@@ -47,8 +47,7 @@ Link to [Protein Assay Quick Guide](https://drive.google.com/a/choderalab.org/fi
 	* Press down to lock the latch in place.
 	* Push the cartridge into the instrument.
 	
-![insert_chip_small](https://cloud.githubusercontent.com/assets/8997658/24776773/42b389aa-1af0-11e7-9498-fd1f7a9c85cb.png)
-
+![insert_chip_small](https://cloud.githubusercontent.com/assets/8997658/24804010/0bc59a4c-1b7b-11e7-9138-47e267b01873.png)
 
 ## Running the electrophoresis
 Connect to Caliper PC with TeamViewer via Momentum PC.  
