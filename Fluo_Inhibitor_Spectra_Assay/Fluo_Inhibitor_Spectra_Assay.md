@@ -4,12 +4,11 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 ![alt text](img/inhibitorsetup.png "Inhibitor_setup.png")
 
 ##Relevant Scripts 
-(These scripts names will be modified to more general names and using letters instead of numbers for rows)
-- Momentum Process: WIP_LRL_FLU_Spectra
-- Momentum Experiment: E_WIP_LRL_FLU_Spectra
-- EVO Scripts: WIP_LRL_FLU_Spectra_a_b_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_c_d_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_e_f_rows_diff_carrier.esc and WIP_LRL_FLU_Spectra_g_h_rows_diff_carrier.esc
-- D300 Scripts: LRL_Src_Bos_2rows_1_2 2015-09-11 1048.DATA.xml, LRL_Src_Bos_2rows_3_4 2015-09-15 1029.DATA.xml, LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_7_8 2015-09-15 1031.DATA.xml 
-- Infinite Script: EXP_FLU_Spectra_a_b_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_c_d_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_e_f_rows_4ti0234-bw2020_2gains.mdfx and EXP_FLU_Spectra_g_h_rows_4ti0234-bw2020_2gains.mdfx
+- Momentum Process: EXP_FLU_Spectra
+- Momentum Experiment: E_EXP_FLU_Spectra
+- EVO Scripts: EXP_FLU_Spectra_a_b.esc, EXP_FLU_Spectra_c_d.esc, EXP_FLU_Spectra_e_f.esc and EXP_FLU_Spectra_g_h.esc
+- D300 Scripts: EXP_FLU_Spectra_a_b.DATA.xml, EXP_FLU_Spectra_c_d.DATA.xml, EXP_FLU_Spectra_e_f.DATA.xml and EXP_FLU_Spectra_g_h.DATA.xml 
+- Infinite Script: EXP_FLU_Spectra_a_b_rows.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
 
 ##Procedure
 - Prepare 14 mL of 1 µM kinase (9.6 should be enough for two experiments, but good to have over) in Kinase Buffer (in fridge).
@@ -28,6 +27,13 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Run Momentum Script. E_WIP_LRL_FLU_Spectra
 - Infinite results file will be output to Google Drive (choderalab/automation/protocols/infinite/results).
 - Using assaytools run xml2png4scans-spectra.py on output xml files.
+
+##Former scripts that perform the same function:
+- Momentum Process: WIP_LRL_FLU_Spectra
+- Momentum Experiment: E_WIP_LRL_FLU_Spectra
+- EVO Scripts: WIP_LRL_FLU_Spectra_a_b_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_c_d_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_e_f_rows_diff_carrier.esc and WIP_LRL_FLU_Spectra_g_h_rows_diff_carrier.esc
+- D300 Scripts: LRL_Src_Bos_2rows_1_2 2015-09-11 1048.DATA.xml, LRL_Src_Bos_2rows_3_4 2015-09-15 1029.DATA.xml, LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_7_8 2015-09-15 1031.DATA.xml 
+- Infinite Script: EXP_FLU_Spectra_a_b_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_c_d_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_e_f_rows_4ti0234-bw2020_2gains.mdfx and EXP_FLU_Spectra_g_h_rows_4ti0234-bw2020_2gains.mdfx
 
 ###Kinase Buffer Instructions (if needed)
 
