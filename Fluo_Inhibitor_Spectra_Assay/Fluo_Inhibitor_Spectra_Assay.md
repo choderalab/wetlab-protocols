@@ -3,14 +3,14 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 
 ![alt text](img/inhibitorsetup.png "Inhibitor_setup.png")
 
-##Relevant Scripts 
+## Relevant Scripts 
 - Momentum Process: EXP_FLU_Spectra
 - Momentum Experiment: E_EXP_FLU_Spectra
 - EVO Scripts: EXP_FLU_Spectra_a_b.esc, EXP_FLU_Spectra_c_d.esc, EXP_FLU_Spectra_e_f.esc and EXP_FLU_Spectra_g_h.esc
 - D300 Scripts: EXP_FLU_Spectra_a_b.DATA.xml, EXP_FLU_Spectra_c_d.DATA.xml, EXP_FLU_Spectra_e_f.DATA.xml and EXP_FLU_Spectra_g_h.DATA.xml 
 - Infinite Script: EXP_FLU_Spectra_a_b_rows.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
 
-##Procedure
+## Procedure
 - Prepare 14 mL of 1 µM kinase (9.6 should be enough for two experiments, but good to have over) in Kinase Buffer (in fridge).
 - Use tube from -80ºC.
 - Spin down (5000 rcf for 10 min at 4C).
@@ -28,25 +28,25 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Infinite results file will be output to Google Drive (choderalab/automation/protocols/infinite/results).
 - Using assaytools run xml2png4scans-spectra.py on output xml files.
 
-##Former scripts that perform the same function:
+## Former scripts that perform the same function:
 - Momentum Process: WIP_LRL_FLU_Spectra
 - Momentum Experiment: E_WIP_LRL_FLU_Spectra
 - EVO Scripts: WIP_LRL_FLU_Spectra_a_b_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_c_d_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_e_f_rows_diff_carrier.esc and WIP_LRL_FLU_Spectra_g_h_rows_diff_carrier.esc
 - D300 Scripts: LRL_Src_Bos_2rows_1_2 2015-09-11 1048.DATA.xml, LRL_Src_Bos_2rows_3_4 2015-09-15 1029.DATA.xml, LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_7_8 2015-09-15 1031.DATA.xml - Infinite Script: EXP_FLU_Spectra_a_b_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_c_d_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_e_f_rows_4ti0234-bw2020_2gains.mdfx and EXP_FLU_Spectra_g_h_rows_4ti0234-bw2020_2gains.mdfx
 
-###Kinase Buffer Instructions (if needed)
+### Kinase Buffer Instructions (if needed)
 
 USE THE REVO. Otherwise:
 
 To make 2L of 20 mM Tris 0.5 mM TCEP pH 8:
 
-####Materials:
+#### Materials:
 - TCEP: Biosynth C1818 Lot 0000009688 MW 286.65 g/mol
 - 1M Tris pH 8: Fisher Bioreagents BP1758-500 Lot 135742
 - 1L graduated cylinder
 - 2 x 2L glass beaker
 
-####Preparation:
+#### Preparation:
 - add 40 mL of 1M Tris pH 8 to graduated cylinder
 - add 286.65 mg TCEP to graduated cylinder [actual: 288.2 mg]
 - fill up cylinder to 2L with ddH2O (Purelab Ultra)
