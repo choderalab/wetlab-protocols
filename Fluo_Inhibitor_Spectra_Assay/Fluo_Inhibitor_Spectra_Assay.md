@@ -11,6 +11,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Infinite Script: EXP_FLU_Spectra_a_b_rows.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
 
 ## Procedure
+- If needed make compound stock plate as described [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Compound_Stock_Plate_Preparation/Compound_Stock_Plate_Preparation.md).
 - Prepare 7 mL of 1 µM kinase in Kinase Buffer (in fridge).
 - Use tube from -80ºC.
 - Spin down (5000 rcf for 10 min at 4C).
