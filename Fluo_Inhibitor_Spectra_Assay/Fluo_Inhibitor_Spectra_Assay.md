@@ -11,12 +11,11 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Infinite Script: EXP_FLU_Spectra_a_b_rows.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
 
 ## Procedure
-- Prepare 14 mL of 1 µM kinase (9.6 should be enough for two experiments, but good to have over) in Kinase Buffer (in fridge).
+- Prepare 7 mL of 1 µM kinase in Kinase Buffer (in fridge).
 - Use tube from -80ºC.
 - Spin down (5000 rcf for 10 min at 4C).
-- Measure concentration using denovix (Src should be preprogrammed).
-- Convert to moles (MW of Src is 32.5 kDa).
-- Add appropriate amount to total 14 mL.
+- Measure concentration using denovix (most proteins we use should be preprogrammed).
+- Calculate appropriate amount to get 1 uM in total 7 mL using `protein_volume_calculation.py` [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Frequent_calculations_during_experiment_preparation/WIP_python_scripts/protein_volume_calculation.py).
 - Run maintenance scripts: MAINT_Wash and MAINT_Rehome on EVO.
 - Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 200 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
