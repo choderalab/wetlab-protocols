@@ -1,4 +1,4 @@
-#A simple experiment to make our own measurements of the evaporation of water and the absorption of water by DMSO and how sealing prevents these
+# A simple experiment to make our own measurements of the evaporation of water and the absorption of water by DMSO and how sealing prevents these
 
 ## Relavent Scripts
 - Momentum Process: WIP_SMH_DMSOH2Osealtest
