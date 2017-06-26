@@ -27,6 +27,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Run Momentum Script. E_EXP_FLU_Spectra
 - Infinite results file will be output to Google Drive (choderalab/automation/protocols/infinite/results).
 - Using assaytools run `xml2png --type spectra *.xml` on output xml files.
+- Record waste in waste carboy tally.
 
 ## Former scripts that perform the same function:
 - Momentum Process: WIP_LRL_FLU_Spectra

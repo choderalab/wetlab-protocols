@@ -18,6 +18,7 @@ This protocol fills 4ti0110 plates with 10mM DMSO stocks. Each well is filled wi
 - Place 1000uL SBS DiTis in the 43 position of EVO. (Red rectangle) 
 - Place the 10mM DMSO stock vial holder (Source Plate) in the 27 postion of EVO. (Purple rectangle)
 - Run Momentum Script. E_WIP_JDC_PrepareCompoundStockPlates_4ti0110
+- Record waste in waste carboy tally and time Stock Vials spent open in plate stable inventory.
 
 ## Alternative scripts
 To make only 6 columns:
