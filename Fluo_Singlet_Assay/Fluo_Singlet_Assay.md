@@ -26,6 +26,13 @@ This protocol fills one 384-well plate with alternating rows of Protein in Buffe
 - Make sure to name the two infinite output files accordingly.
 - Run Momentum Script. E_EXP_FLU_Singlet
 - Infinite results file will be output to Google Drive (choderalab/automation/protocols/infinite/results).
+- Using assaytools run `xml2png --type singlet_384 *.xml` on output xml files.
+- Record waste in waste carboy tally.
+
+## Alternative scripts
+To use two proteins with four ligands instead of one protein with eight ligands:
+- Run Momentum Script E_EXP_FLU_Singlet_2proteins
+- This uses EVO Script EXP_FLU_Signlet_2proteins.esc
 
 ## Kinase Buffer Instructions (if needed)
 
