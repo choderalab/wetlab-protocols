@@ -16,7 +16,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Use tube from -80ºC.
 - Spin down (5000 rcf for 10 min at 4C).
 - Measure concentration using denovix (most proteins we use should be preprogrammed).
-- Calculate appropriate amount to get 1 uM in total 7 mL using `protein_volume_calculation.py` [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Frequent_calculations_during_experiment_preparation/WIP_python_scripts/protein_volume_calculation.py).
+- Calculate appropriate amount to get 1 uM in total 7 mL using `protein_volume_calculation.py` [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Frequent_calculations_during_experiment_preparation/WIP_python_scripts/protein_volume_calculation.py). NOTE: divide by two, since right now this, script has 14 mL hardcoded.
 - Run maintenance scripts: MAINT_Wash and MAINT_Rehome on EVO.
 - Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 200 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
