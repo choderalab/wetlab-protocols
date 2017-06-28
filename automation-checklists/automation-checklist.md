@@ -1,4 +1,4 @@
-##Checklist 
+## Checklist 
 
 - Schedule time on the Chodera lab robots calendar before using the automation system.
 - Sign into the automation system Google drive sign in sheet (choderalab/upkeep/Equipment Sign In Sheets and Issue Logs) https://docs.google.com/spreadsheets/d/1-9doRZS71Cv9ring99yb3HCWTVsXDh5DnMQFJKgG9OM/edit#gid=297083941.
