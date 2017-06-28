@@ -13,10 +13,10 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 ## Procedure
 - If needed make compound stock plate as described [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Compound_Stock_Plate_Preparation/Compound_Stock_Plate_Preparation.md).
 - Prepare 7 mL of 1 µM kinase in Kinase Buffer (in fridge).
-- Use tube from -80ºC.
-- Spin down (5000 rcf for 10 min at 4C).
-- Measure concentration using denovix (most proteins we use should be preprogrammed).
-- Calculate appropriate amount to get 1 uM in total 7 mL using `protein_volume_calculation.py` [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Frequent_calculations_during_experiment_preparation/WIP_python_scripts/protein_volume_calculation.py). NOTE: divide by two, since right now this, script has 14 mL hardcoded.
+  - Use tube from -80ºC.
+  - Spin down (5000 rcf for 10 min at 4C).
+  - Measure concentration using denovix (most proteins we use should be preprogrammed).
+  - Calculate appropriate amount to get 1 uM in total 7 mL using `protein_volume_calculation.py` [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Frequent_calculations_during_experiment_preparation/WIP_python_scripts/protein_volume_calculation.py). NOTE: divide by two, since right now this, script has 14 mL hardcoded.
 - Run maintenance scripts: MAINT_Wash and MAINT_Rehome on EVO.
 - Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 200 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
