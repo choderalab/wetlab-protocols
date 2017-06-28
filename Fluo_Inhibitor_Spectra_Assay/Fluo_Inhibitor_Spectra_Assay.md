@@ -35,6 +35,11 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - EVO Scripts: WIP_LRL_FLU_Spectra_a_b_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_c_d_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_e_f_rows_diff_carrier.esc and WIP_LRL_FLU_Spectra_g_h_rows_diff_carrier.esc
 - D300 Scripts: LRL_Src_Bos_2rows_1_2 2015-09-11 1048.DATA.xml, LRL_Src_Bos_2rows_3_4 2015-09-15 1029.DATA.xml, LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_7_8 2015-09-15 1031.DATA.xml - Infinite Script: EXP_FLU_Spectra_a_b_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_c_d_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_e_f_rows_4ti0234-bw2020_2gains.mdfx and EXP_FLU_Spectra_g_h_rows_4ti0234-bw2020_2gains.mdfx
 
+## Alternative scripts
+To use two proteins with four ligands instead of one protein with eight ligands:
+- Run Momentum Script E_EXP_FLU_Spectra_4proteins
+- This uses EVO Scripts EXP_FLU_Spectra_a_b.esc, EXP_FLU_Spectra_4proteins_c_d.esc, EXP_FLU_Spectra_4proteins_e_f.esc, and EXP_FLU_Spectra_4proteins_g_h.esc
+
 ### Kinase Buffer Instructions (if needed)
 
 USE THE REVO. Otherwise:
