@@ -11,6 +11,11 @@ Working examples that use these layouts are saved as worktable-only templates in
 
 If you select `New` to make a new script in EVOware, these templates should pop up as options.
 
+A couple things to note about carriers and containers:
+
+ - 1 mL tip boxes can only go on the flat MP3Pos, otherwise the LiHa2 (with fixed tips) will hit it.
+ - Be careful where you put the vial holders and the eppendorf tube holder, as the  RoMa can run into when it is moving plates to the Inheco's if this is not done with careful planning.
+
 Picture:
 
 ![alt text](img/photo.png)

@@ -11,12 +11,12 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Infinite Script: EXP_FLU_Spectra_a_b_rows.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
 
 ## Procedure
-- Prepare 14 mL of 1 µM kinase (9.6 should be enough for two experiments, but good to have over) in Kinase Buffer (in fridge).
-- Use tube from -80ºC.
-- Spin down (5000 rcf for 10 min at 4C).
-- Measure concentration using denovix (Src should be preprogrammed).
-- Convert to moles (MW of Src is 32.5 kDa).
-- Add appropriate amount to total 14 mL.
+- If needed make compound stock plate as described [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Compound_Stock_Plate_Preparation/Compound_Stock_Plate_Preparation.md).
+- Prepare 7 mL of 1 µM kinase in Kinase Buffer (in fridge).
+  - Use tube from -80ºC.
+  - Spin down (5000 rcf for 10 min at 4C).
+  - Measure concentration using denovix (most proteins we use should be preprogrammed).
+  - Calculate appropriate amount to get 1 uM in total 7 mL using `protein_volume_calculation.py` [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Frequent_calculations_during_experiment_preparation/WIP_python_scripts/protein_volume_calculation.py). NOTE: divide by two, since right now this, script has 14 mL hardcoded.
 - Run maintenance scripts: MAINT_Wash and MAINT_Rehome on EVO.
 - Load Kinase Buffer into 100 mL trough, Protein into 25 mL trough, fresh D300 chip (Purple rectangle), 200 uL SBS DiTis (red rectangle) and appropriate Compound Stock Plate (Green rectangle).
 ![alt text](img/EVO_deck.png "EVO_deck.png")
@@ -26,13 +26,19 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Make sure to name the four infinite output files accordingly.
 - Run Momentum Script. E_EXP_FLU_Spectra
 - Infinite results file will be output to Google Drive (choderalab/automation/protocols/infinite/results).
-- Using assaytools run xml2png4scans-spectra.py on output xml files.
+- Using assaytools run `xml2png --type spectra *.xml` on output xml files.
+- Record waste in waste carboy tally.
 
 ## Former scripts that perform the same function:
 - Momentum Process: WIP_LRL_FLU_Spectra
 - Momentum Experiment: E_WIP_LRL_FLU_Spectra
 - EVO Scripts: WIP_LRL_FLU_Spectra_a_b_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_c_d_rows_diff_carrier.esc, WIP_LRL_FLU_Spectra_e_f_rows_diff_carrier.esc and WIP_LRL_FLU_Spectra_g_h_rows_diff_carrier.esc
 - D300 Scripts: LRL_Src_Bos_2rows_1_2 2015-09-11 1048.DATA.xml, LRL_Src_Bos_2rows_3_4 2015-09-15 1029.DATA.xml, LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_5_6 2015-09-15 1030.DATA.xml and LRL_Src_Bos_2rows_7_8 2015-09-15 1031.DATA.xml - Infinite Script: EXP_FLU_Spectra_a_b_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_c_d_rows_4ti0234-bw2020_2gains.mdfx, EXP_FLU_Spectra_e_f_rows_4ti0234-bw2020_2gains.mdfx and EXP_FLU_Spectra_g_h_rows_4ti0234-bw2020_2gains.mdfx
+
+## Alternative scripts
+To use two proteins with four ligands instead of one protein with eight ligands:
+- Run Momentum Script E_EXP_FLU_Spectra_4proteins
+- This uses EVO Scripts EXP_FLU_Spectra_a_b.esc, EXP_FLU_Spectra_4proteins_c_d.esc, EXP_FLU_Spectra_4proteins_e_f.esc, and EXP_FLU_Spectra_4proteins_g_h.esc
 
 ### Kinase Buffer Instructions (if needed)
 
