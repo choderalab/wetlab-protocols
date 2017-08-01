@@ -5,7 +5,12 @@
 - [ ] Momentum is left with all instruments in online (green) mode
 - [ ] automation system status monitor server is running on Momentum machine
 - [ ] Cytomat has been cleared of any plates containing your samples
-- [ ] potentially hazardous material is safely disposed of
+- [ ] Potentially hazardous material is safely disposed of and recorded:
+	- All chemical names should be written explicitly and without abbreviations.
+    - After each experiment, experimenter should record the names of the chemicals that were discarded to waste carboy in:
+        1. [ ] Hazardous waste label on the carboy
+        2. [ ] [WetLab waste list](https://docs.google.com/a/choderalab.org/spreadsheets/d/13iVn3OHFi48qu1uepX6-2KrLabXh9M9DhJDAcfOGLz8/edit?usp=sharing).
+    - All chemical names should be written explicitly and without abbreviation.
 
 ## FAQ
 
