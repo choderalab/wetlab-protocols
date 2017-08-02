@@ -7,6 +7,12 @@
 
 ### PROTOCOL
 
+#### Which chemicals are hazardous?
+Check [OSHA Hazardous Chemical Determination page](https://www.osha.gov/dsg/hazcom/ghd053107.html#process) and SDS of the chemical.
+It should be labeled as hazardous waste if it is a physical or health hazard:
+- *Physical hazards* :  combustible liquid, a compressed gas, explosive, flammable, an organic peroxide, an oxidizer, pyrophoric, unstable (reactive) or water-reactive.
+- *Health hazard* : carcinogens, toxins, irritants, corrosives, sensitizers, agents which damage the lungs, skin, eyes, mucous membranes or hematopoietic system.
+
 #### New Waste Carboy
 - Liquid waste carboy's are received from Safety department (125-2280). They are delivered clean unlabelled.
 - As soon as an empty carboy is assigened as EVO/Density Meter liquid waste:
