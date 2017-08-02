@@ -17,9 +17,9 @@
 
 #### Ordinary Usage
 - All chemical names should be written explicitly and without abbreviations.
-- After each experiment, experimenter should record the names of the chemicals that were discarded to waste carboy to:
-    1. Hazardous waste label on the carboy
-    2. [WetLab waste list](https://docs.google.com/a/choderalab.org/spreadsheets/d/13iVn3OHFi48qu1uepX6-2KrLabXh9M9DhJDAcfOGLz8/edit?usp=sharing) in Chodera Lab Google Drive.
+- After each experiment, experimenter should record the names of the chemicals that were discarded to waste carboy:
+    1. Add the names of compounds to hazardous waste label on the carboy
+    2. Update [WetLab waste list](https://docs.google.com/a/choderalab.org/spreadsheets/d/13iVn3OHFi48qu1uepX6-2KrLabXh9M9DhJDAcfOGLz8/edit?usp=sharing) in Chodera Lab Google Drive. Assume 5% volume of anything dispensed with EVO fixed tips will be discarded into waste carboy with system liquid.
 
 #### When Full
 - Check that chemical labels on the carboy match the chemicals listed in [WetLab waste list](https://docs.google.com/a/choderalab.org/spreadsheets/d/13iVn3OHFi48qu1uepX6-2KrLabXh9M9DhJDAcfOGLz8/edit?usp=sharing).
