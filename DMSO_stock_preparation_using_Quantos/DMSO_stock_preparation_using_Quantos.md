@@ -2,7 +2,7 @@
 
 ## Relevant LabX methods 
 - Write Head
-- GSP stable 11/13/2015 (mg/g)
+- GSP stable (04/26/2017) (mg/g)
 
 
 ## Procedure
@@ -37,7 +37,7 @@ At the balance:
 
 ### Filling vial with solid compound and DMSO
 
-- Run the "GSP stable 11/13/2015 (mg/g)" method
+- Run the "GSP stable (04/26/2017) (mg/g)" method
 - Type in target concentration of stock solution in mg/g.
 - Type in total solution in grams.
 - Type in shelf life in days.
