@@ -8,7 +8,7 @@ This protocol fills one plate with alternating rows of Protein in Buffer (1 uM o
 - Momentum Experiment: E_EXP_FLU_Spectra
 - EVO Scripts: EXP_FLU_Spectra_a_b.esc, EXP_FLU_Spectra_c_d.esc, EXP_FLU_Spectra_e_f.esc and EXP_FLU_Spectra_g_h.esc
 - D300 Scripts: EXP_FLU_Spectra_a_b.DATA.xml, EXP_FLU_Spectra_c_d.DATA.xml, EXP_FLU_Spectra_e_f.DATA.xml and EXP_FLU_Spectra_g_h.DATA.xml 
-- Infinite Script: EXP_FLU_Spectra_a_b_rows.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
+- Infinite Script: EXP_FLU_Spectra_a_b.mdfx, EXP_FLU_Spectra_c_d.mdfx, EXP_FLU_Spectra_e_f.mdfx and EXP_FLU_Spectra_g_h.mdfx
 
 ## Procedure
 - If needed make compound stock plate as described [here](https://github.com/choderalab/wetlab-protocols/blob/updates/Compound_Stock_Plate_Preparation/Compound_Stock_Plate_Preparation.md). Compound stock plate should have the DMSO or ligand solutions ordered vertically down a column with the same order as they will appear in D300 casette chips. Since spectra assay uses DMSO backfill, solution order should be:  
