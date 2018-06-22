@@ -1,6 +1,6 @@
 # A SOP for creating glycerol stocks in the Chodera Lab 
 
-Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create-glycerol-stock/) and [Addgene liquid culture](https://www.addgene.org/protocols/inoculate-bacterial-culture/)protocols 
+Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create-glycerol-stock/) and [Addgene liquid culture](https://www.addgene.org/protocols/inoculate-bacterial-culture/) protocols 
 
 ### Materials 
 * Sterile LB media 
@@ -9,7 +9,8 @@ Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create
 * 200uL pipet tip 
 * transformed LB agar plate with colonies 
 * Sterile 50% glycerol stock solution 
-* cryo-vial (screw top)
+* cryo-vial (screw top) 
+![cryovial](images/cryovial.jpg "Example from Thomas Scientific Website")
 * Liquid nitrogen 
 * bunsen burner 
 
@@ -32,7 +33,7 @@ Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create
 #### Day 2
 * Check the culture for growth (it should be cloudy) 
 * Add 500uL 50% glycerol and 500uL overnight culture to a cryovial tube 
-* Check that the stock is well mixed and uniform. There hsould be no layers in the tube. 
+* Check that the stock is well mixed and uniform. There should be no layers in the tube. 
 * Freeze in liquid nitrogen and store in the -80°C fridge 
 
 
@@ -43,5 +44,5 @@ Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create
 
 ### Notes
 
-* Glycerol stocks can be made from the same culture as a miniprep, so combining these two tasks it useful
+* Glycerol stocks can be made from the same culture as a miniprep, so combining these two tasks is useful
 * Bacteria from this culture can be recovered by [streaking an agar plate](https://www.addgene.org/protocols/streak-plate/)
