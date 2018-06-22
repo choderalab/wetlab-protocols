@@ -28,9 +28,6 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 3. Store HT DNA Express Reagent Kit in 4°C fridge. HT Protein Express Reagent Kit contains the reagents to run three chip preparations. Each chip preparation is enough to run a 96-well plate. 
 
 ## Sample, ladder and buffer preparation 
-
-<img width="696" alt="screen shot 2017-04-06 at 4 48 09 pm" src="https://cloud.githubusercontent.com/assets/8997658/24774943/e4b27d86-1ae8-11e7-95ec-157e65abc46a.png">
-
 1. In the provided 0.2 mL Ladder Tube, add 12 µL DNA Ladder to 108 µL of your 1X DNA sample buffer. (This 1X DNA sample buffer is the solution the DNA is currently stored in, most likely H20 or EB)
 2. Add 750 µL of your 1X DNA sample buffer to the provided Buffer Tube.
 3. Prepare the DNA samples directly onto the 4ti-0960 plate. After using the nanodrop to find the concentrations of your DNA insert, you should dilute your DNA samples to 0.25 ng/µL – 50 ng/µL in the 1X DNA sample buffer. 
