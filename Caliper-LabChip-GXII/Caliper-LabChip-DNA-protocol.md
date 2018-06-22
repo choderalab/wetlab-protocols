@@ -20,7 +20,7 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 
 1. Take out blue HT DNA LabChip and HT 5K DNA express Reagent Kit from 4°C fridge and let equilibriate to room temperature for 30 minutes.
 2. Follow DNA Chip Preparation instructions found below from the LabChip® GX DNA Quick Guide and use the reverse pipetting technique to avoid bubbles:	
-<img width="704" alt="screen shot 2017-04-06 at 4 21 09 pm" src="https://cloud.githubusercontent.com/assets/8997658/24774002/43ead202-1ae5-11e7-9d5b-26910952b301.png">  
+<img width="704" alt="screen shot 2017-04-06 at 4 21 09 pm" src="https://github.com/choderalab/wetlab-protocols/blob/Caliper_DNA_Chip_Protocol/Screen%20Shot%202018-06-22%20at%202.20.09%20PM.png">  
 
 * Numbers in wells indicates volume of reagent in µL which needs to be added to each well. 
 * Label the reagents with opening date and also label remaining Gel-dye and destaining solutions since they can be reused within 3 weeks of preparation.
@@ -68,7 +68,8 @@ autoexport.
 6. In the Advanced Tab, select the number of times each well is sampled, the inclusion of any sample names
 and any expected peaks.
 7. Click Start to begin the run.
-* It takes 5 minutes to prime the gel and 10 minutes to run 10 samples.
+* It takes 5 minutes to prime the gel and 10 minutes to run 10 samples and a ladder sample (shown below).
+<img width="696" alt="screen shot 2017-04-06 at 4 48 09 pm" src="https://github.com/choderalab/wetlab-protocols/blob/Caliper_DNA_Chip_Protocol/Screen%20Shot%202018-06-22%20at%203.10.48%20PM.png">
 
 ## Clean-up and storage
 After use, the chip must be cleaned and stored in the chip container.
