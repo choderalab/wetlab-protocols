@@ -9,10 +9,16 @@ Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create
 * 200uL pipet tip 
 * transformed LB agar plate with colonies 
 * Sterile 50% glycerol stock solution 
-* cryo-vial (screw top) 
-![cryovial](images/cryovial.jpg "Example from Thomas Scientific Website")
+* Cryovial (screw top) 
 * Liquid nitrogen 
 * bunsen burner 
+
+
+.center[
+![cryovial](images/cryovial.jpg "Example from Thomas Scientific Website")
+.caption[
+**Example Cryovial** grabbed from [Thomas Scientific](https://www.thomassci.com/Laboratory-Supplies/Cryogenic-Vials/_/CRYOGENIC-VIALS-AND-CONTAINERS?q=Cryotube)]
+]
 
 ### Preparation 
 
