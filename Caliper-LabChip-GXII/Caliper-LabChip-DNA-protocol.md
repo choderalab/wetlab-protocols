@@ -49,8 +49,8 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 ## Running the electrophoresis
 Connect to Caliper PC with TeamViewer via Momentum PC.  
 	IP: 10.0.1.15  
-	Username: caliper
-	Password: password
+	Username: caliper  
+	Password: password  
 1. Start the LabChip GX software.
 2. On the main screen, click on the Run button in the upper left corner of the LabChip GX Software.
 3. The Start Run dialog box will pop up with tabs listed as Output, Run and Advanced.
@@ -70,11 +70,11 @@ and any expected peaks.
 <img width="696" alt="screen shot 2017-04-06 at 4 48 09 pm" src="https://github.com/choderalab/wetlab-protocols/blob/Caliper_DNA_Chip_Protocol/Screen%20Shot%202018-06-22%20at%203.10.48%20PM.png">
 
 ## Clean-up and storage
-After use, the chip must be cleaned and stored in the chip container.
+After use, the chip must be cleaned, washed and stored in the chip container.
 1. Aspirate the reagents from each well of the chip.
 2. Each active well (1, 3, 4, 7, 8, and 10) should be rinsed and aspirated twice, using millipore water.
-3. Add 100 µL of HT DNA Storage Buffer (white cap) found in the HT DNA Express Reagent Kit to the active wells.
-4. Place the chip in the LabChip GX instrument and click the Wash button in the left corner of the LabChip
+3. Add 100 µL of HT DNA Storage Buffer (white cap) found in the HT DNA Express Reagent Kit to all the active wells.
+4. **Run WASH:** Place the chip in the LabChip GX instrument and click the Wash button in the left corner of the LabChip
 GX Software. (This wash program should run for 5 minutes. If longer, stop the program and restart the wash program.)
 5. Remove the chip from the instrument and place it in its plastic storage container. Add 100 uL of Storage Buffer to well 1. Cover the wells with parafilm to prevent buffer evaporation and store at 4 °C. 
 * Storage of a chip with dry wells may cause it to become clogged. 
