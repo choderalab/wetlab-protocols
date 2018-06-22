@@ -25,7 +25,7 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 * Numbers in wells indicates volume of reagent in µL which needs to be added to each well. 
 * Label the reagents with opening date and also label remaining Gel-dye and destaining solutions since they can be reused within 3 weeks of preparation.
 
-3. Store HT DNA Express Reagent Kit in 4°C fridge. HT Protein Express Reagent Kit contains the reagents to run three chip preparations. Each chip preparation is enough to run a 96-well plate. 
+3. Store HT DNA Express Reagent Kit in 4°C fridge. HT 5K DNA Express Reagent Kit contains the reagents to run three chip preparations. Each chip preparation is enough to run a 96-well plate. 
 
 ## Sample, ladder and buffer preparation 
 1. In the provided 0.2 mL Ladder Tube, add 12 µL DNA Ladder to 108 µL of your 1X DNA sample buffer. (This 1X DNA sample buffer is the solution the DNA is currently stored in, most likely H20 or EB)
@@ -65,6 +65,7 @@ autoexport.
 6. In the Advanced Tab, select the number of times each well is sampled, the inclusion of any sample names
 and any expected peaks.
 7. Click Start to begin the run.
+* The DNA Chip can be reused after one run without removing its contents or washing as long as the chip and 4ti-0960, 96 well PCR plate are stored overnight at 4 C. 
 * It takes 5 minutes to prime the gel and 10 minutes to run 10 samples and a ladder sample (shown below).
 <img width="696" alt="screen shot 2017-04-06 at 4 48 09 pm" src="https://github.com/choderalab/wetlab-protocols/blob/Caliper_DNA_Chip_Protocol/Screen%20Shot%202018-06-22%20at%203.10.48%20PM.png">
 
