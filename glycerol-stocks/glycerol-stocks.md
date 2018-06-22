@@ -13,15 +13,8 @@ Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create
 * Liquid nitrogen 
 * bunsen burner 
 
-
-.center[
-
 ![cryovial](images/cryovial.jpg "Example from Thomas Scientific Website")
-
-.caption[
-**Example Cryovial** grabbed from [Thomas Scientific](https://www.thomassci.com/Laboratory-Supplies/Cryogenic-Vials/_/CRYOGENIC-VIALS-AND-CONTAINERS?q=Cryotube)]
-
-]
+**Example Cryovial** grabbed from [Thomas Scientific](https://www.thomassci.com/Laboratory-Supplies/Cryogenic-Vials/_/CRYOGENIC-VIALS-AND-CONTAINERS?q=Cryotube)
 
 ### Preparation 
 
