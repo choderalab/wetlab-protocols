@@ -32,11 +32,11 @@ Based on the [Addgene (Glycerol Stock)](https://www.addgene.org/protocols/create
 #### Day 2
 * Check the culture for growth (it should be cloudy) 
 * Add 500uL 50% glycerol and 500uL overnight culture to a cryovial tube 
-* Check that the stock is well mixed and uniform. There hsould be no layers in the tube. 
+* Check that the stock is well mixed and uniform. There should be no layers in the tube. 
 * Freeze in liquid nitrogen and store in the -80°C fridge 
 
 
 ### Notes
 
-* Glycerol stocks can be made from the same culture as a miniprep, so combining these two tasks it useful
+* Glycerol stocks can be made from the same culture as a miniprep, so combining these two tasks is useful
 * Bacteria from this culture can be recovered by [streaking an agar plate](https://www.addgene.org/protocols/streak-plate/)
