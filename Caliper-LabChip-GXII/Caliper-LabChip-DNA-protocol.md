@@ -49,8 +49,8 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 ## Running the electrophoresis
 Connect to Caliper PC with TeamViewer via Momentum PC.  
 	IP: 10.0.1.15  
-	Username: admin  
-	Password: Docking4EVA
+	Username: caliper
+	Password: password
 1. Start the LabChip GX software.
 2. On the main screen, click on the Run button in the upper left corner of the LabChip GX Software.
 3. The Start Run dialog box will pop up with tabs listed as Output, Run and Advanced.
