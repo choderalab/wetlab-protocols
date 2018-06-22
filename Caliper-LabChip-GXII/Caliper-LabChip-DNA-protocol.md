@@ -30,7 +30,7 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 ## Sample, ladder and buffer preparation 
 1. In the provided 0.2 mL Ladder Tube, add 12 µL DNA Ladder to 108 µL of your 1X DNA sample buffer. (This 1X DNA sample buffer is the solution the DNA is currently stored in, most likely H20 or EB)
 2. Add 750 µL of your 1X DNA sample buffer to the provided Buffer Tube.
-3. Prepare the DNA samples directly onto the 4ti-0960 plate. After using the nanodrop to find the concentrations of your DNA insert, you should dilute your DNA samples to 0.25 ng/µL – 50 ng/µL in the 1X DNA sample buffer. 
+3. Prepare the DNA samples directly onto the 4ti-0960 plate. After using the nanodrop to find the concentrations of your DNA insert, you should dilute your DNA samples to the recommended concentration of 0.25 ng/µL – 50 ng/µL in the 1X DNA sample buffer. 
 * Recommended sample volumes are 25 µL for a 384-well plate or 40 µL for a 96-well plate.
 
 ## Inserting chip and samples to instrument
@@ -65,7 +65,9 @@ autoexport.
 6. In the Advanced Tab, select the number of times each well is sampled, the inclusion of any sample names
 and any expected peaks.
 7. Click Start to begin the run.
-* The DNA Chip can be reused after one run without removing its contents or washing as long as the chip and 4ti-0960, 96 well PCR plate are stored overnight at 4 C. 
+
+* The DNA Chip can be reused with the remaining reagents overnight in 4C fridge to use the next day. If less than a full plate of samples were run, there is usually enough reagent left to run another electrophoresis run. The chip needs to be primed and used the next day. After two days of useage, the chip must be properly cleaned and washed (described below) before long time storage.
+
 * It takes 5 minutes to prime the gel and 10 minutes to run 10 samples and a ladder sample (shown below).
 <img width="696" alt="screen shot 2017-04-06 at 4 48 09 pm" src="https://github.com/choderalab/wetlab-protocols/blob/Caliper_DNA_Chip_Protocol/Screen%20Shot%202018-06-22%20at%203.10.48%20PM.png">
 
