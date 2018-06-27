@@ -6,12 +6,12 @@ Link to [LabChip® GX DNA Quick Guide](https://www.perkinelmer.com/lab-solutions
 ### Materials:
 - Blue HT DNA Express LabChip (Perkin Elmer) - stored in 4°C fridge
 - HT DNA Express Reagent Kit (Perkin Elmer)  - stored in 4°C fridge
+- 1X DNA Sample buffer - solution DNA is stored in prior to electrophoresis; often H20 or Elution Buffer (EB)
+- Sample DNA diluted to the recommended concentration of 0.25 ng/µL – 50 ng/µL in your 1X DNA sample buffer.
 - Caliper cloth wipe - wetlab drawer or Caliper box
 - 2 ml 70% isopropanol -  stored in solvent cabinet
 - Perkin Elmer 0.2 mL Ladder Tube - stored in Caliper box
 - Perkin Elmer Buffer Tube - stored in Caliper box
-- DNA samples (2 µL each)
-- 1X DNA Sample buffer - solution DNA is stored in prior to electrophoresis; often H20 or Elution Buffer (EB)
 - Sample plate: 4ti-0960, 96 well PCR plate (purple) 
 ## 
 
@@ -54,26 +54,24 @@ Connect to Caliper PC with TeamViewer via Momentum PC.
 1. Start the LabChip GX software.
 2. On the main screen, click on the Run button in the upper left corner of the LabChip GX Software.
 3. The Start Run dialog box will pop up with tabs listed as Output, Run and Advanced.
-4. In the Run Tab, select the appropriate assay type, wells containing samples, operator name, and plate name.  
-For HT DNA assays appropriate assay types are:  
-	- HT DNA 1K: For sizing of DNA fragments in 25 to 1000 base pair range.
-	- HT DNA 5K: For sizing of DNA fragments in 100 to 5000 base pair range. Fastest analysis time
+4. In the Run Tab, select the appropriate assay type, wells containing samples, operator name, and plate name.
+• For HT DNA assays appropriate assay types are:
+o HT DNA 1K: For sizing of DNA fragments in 25 to 1000 base pair range.
+o HT DNA 5K: For sizing of DNA fragments in 100 to 5000 base pair range. Fastest analysis time
 per sample.
-	- HT DNA 12K: For sizing of DNA fragments in 100 to 12000 base pair range.
+o HT DNA 12K: For sizing of DNA fragments in 100 to 12000 base pair range.
 5. In the Output Tab select the destination of the file, the filename convention and any additional data to
 autoexport.
 6. In the Advanced Tab, select the number of times each well is sampled, the inclusion of any sample names
 and any expected peaks.
 7. Click Start to begin the run.
 
+* The DNA Chip can be reused with the remaining reagents overnight in 4C fridge to use the next day. If less than a full plate of samples were run, there is usually enough reagent left to run another electrophoresis run. The chip needs to be primed and used the next day. After two days of useage, the chip must be properly cleaned and washed (described below) before long time storage.
+
 * It takes 5 minutes to prime the gel and 10 minutes to run 10 samples and a ladder sample (shown below).
 <img width="696" alt="screen shot 2017-04-06 at 4 48 09 pm" src="https://github.com/choderalab/wetlab-protocols/blob/Caliper_DNA_Chip_Protocol/Caliper-LabChip-GXII/images/image2.png">
 
-
 ## Clean-up and storage
-
-* Although not recommended by the vendor, the DNA Chip can be reused with the remaining reagents overnight in 4C fridge to use the next day. If less than a full plate of samples were run, there is usually enough reagent left to run another electrophoresis run. The chip needs to be primed and used the next day. After two days of usage, the chip must be properly cleaned and washed (described below) before long time storage.
-
 After use, the chip must be cleaned, washed and stored in the chip container.
 1. Aspirate the reagents from each well of the chip.
 2. Each active well (1, 3, 4, 7, 8, and 10) should be rinsed and aspirated twice, using millipore water.
