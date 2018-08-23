@@ -99,5 +99,5 @@ This section pertains directly to producing protein once all other components ar
 # Citations
 - (Kim, et al. Biotechnology and Bioprocess Engineering 2008, 13: 464-469) for the expression
 - (Biotechnol. Prog. 2005, 21, 1146−1153) for the initial NMP version
-- (Kim, et al. Biotechnol 2006, 126: 554-561.) for preparing the original S30 extract
+- (Kim, et al. Biotechnol 2006, 126: 554-561.) for preparing the S12 extract
 - Kim et al. combined it with the S12 (non-dialyzed) extract.
