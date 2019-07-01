@@ -17,9 +17,20 @@ Image of the assay design made by Mehtap:
    
    Unlike the multiple well format, this format does NOT use DMSO-backfill. 
    
+### **General Experimental Aspects:**
+- Assay volume: 100 uL
+- Ligand is titrated from 8 nM up to 20 uM in a logarithmic array.
+- Fluorescence of the plate is read BEFORE any ligand is dispensed. This gives us an idea of the fluorescence of the protein in buffer without any ligand.
+- After each D300 dispense, the plate is mixed on the EVO Inheco shaker for 2 minutes to allow for solution to equilibrate. 
+   
 ### **Plates Types:**
 - Plate material is important! 
 - Different plate types have different well bottom materials and/or surface coatings. For example, 4ti-0223 plates have high background fluorescence (~ 2000 rfu) but while 4ti-0234 plates have lower background fluorescence (< 1000 rfu). Corning 3651 plates have high background fluorescence, but are capable of supporting a maximum signal of ~ 50,000 rfu. These have a better signal-to-noise ratio than the 4ti-0223 plates.
+- Links to plate-type info:
+   - [4ti-0223](https://www.brookslifesciences.com/products/vision-plate-96-well)
+   - [4ti-0234](https://www.brookslifesciences.com/products/ultravision-plate-96-well)
+   - [4ti-0263](https://www.brookslifesciences.com/products/96-well-assay-plate#specifications)
+   - Additional 4titude document with more information (pages 95-98) [here](https://www.4ti.co.uk/application/files/5014/6131/7424/4titude_Catalogue_2014-2015.pdf)
 - Currently having trouble mixing efficiently in the 384-well plates, so we are using 96-well plates.
 
 ### **Buffer:**
@@ -94,3 +105,10 @@ MI_HTFLU_single_well_conc16_20180308.hpdd_,
 WIP_LRL_Kinase_exp_panel_spectra_top_only.mdfx,
 WIP_EEG_Copy_Kinase_exp_panel_spectra.mdfx_
 - Momentum Process: _EXP_HT_single_well_binding_assay_
+
+## **Future areas of exploration**
+- Buffer additives to slow down protein absorption to plates (gamma globulins)
+- Can we go lower than 0.5 uM protein?
+- Return to 384-well plates; need to figure out a way to get efficient mixing in smaller wells
+- Competition assay format to extend the dynamic range of the assay (ie measure affinities of non-fluorescent ligands)
+
