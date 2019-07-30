@@ -8,6 +8,8 @@ Task 1-4 must be performed by the user of the item. For chemicals, if you can't 
 
 3. For chemical compounds, depending on storage instuctions pick the storage area and record the item it in [Dessicator Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1TAhKhrfAdcbwQxWJdWEWP7ud2vQjalPZKtHsQDj2Vkc/edit?usp=sharing), [PlateStable Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1G5QUp8qXdvego0RQgK76sPDZQAlD6N8Jy37FBhYllTk/edit?usp=sharing) or [Freezer Inventory](https://docs.google.com/a/choderalab.org/spreadsheets/d/1F-x4JrbIAd96WqROiASZuANYdQVlM8HLVpmyp_6wbBY/edit?usp=sharing).
 
+Also make sure chemicals are up to date on the [ChemTracker inventory](https://mskcc.bioraft.com/), monitored by MSKCC.
+
 4. All documents related to delivery must be ScanSnap'ed. 
 
     ###### Scanning with the ScanSnap on the wetlab Mac:
