@@ -79,12 +79,12 @@ You can download new content from the Oculus Store on your phone or directly fro
 
 ***Casting To Chromecast Notes:***
 * As of 2019 November, this feature is still in beta for the Oculus VR System. Currently, the only devices supported for casting with Quest are: `Google Chromecast Gen 3`, `Google Chromecast Ultra`, and `Nvidia Shield`.
-  - TVs with built-in chromecast functionality are not officially supported at this time.
+  - TVs with built-in Chromecast functionality are not officially supported at this time.
   - You'll need to have Google Home installed on the phone that you're casting with.
   - Your network should allow P2P connections.
 
 #### Using Glasses with Oculus Quest
-*Accessories Needed:* Occulus Quest Glasses Spacer and Glasses smaller than 142mm in length and 50mm in height
+*Accessories Needed:* Oculus Quest Glasses Spacer and Glasses smaller than 142mm in length and 50mm in height
 1. Gently pull to remove the inner face spacer foam
 2. Attach the glasses spacer to the back of the inner face spacer foam with the glasses logo facing OUT. Gently press the glasses spacer onto the small fins sticking out of the foam spacer until they click together.
 3. Re-attach the inner face spacer foam to the Oculus Quest VR Headset.
@@ -104,7 +104,7 @@ You can download new content from the Oculus Store on your phone or directly fro
 ### Cleaning Oculus VR System
 **Cleaning the Headset:**
 * Use a dry cloth to clean the outside of the headset.
-* Use a non-abrassive, anti-bacterial wipe to clean the straps and facial interface foam.
+* Use a non-abrasive, anti-bacterial wipe to clean the straps and facial interface foam.
   - Do NOT use alcohol or an abrasive cleaning solution
 
 **Cleaning Quest Headset Lenses:**
