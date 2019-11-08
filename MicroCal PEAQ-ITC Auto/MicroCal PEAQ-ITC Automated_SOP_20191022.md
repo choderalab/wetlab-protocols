@@ -8,9 +8,13 @@
   - **Contact:** 1-800-932-0101 option 2; 508-768-6450; [support.us@malvernpanalytical.com](support.us@malvernpanalytical.com)
 ---
 ## **Instrument Breakdown**
-![System Overview](ITC/Reference Materials/System Overview.png)
+### System Overview
+![System Overview](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Primary%20Interior%20Components.png?raw=true)
+*Source: MicroCal PEAQ-ITC Automated User Manual; Version MAN0575-02-EN-00; page 13
 
-![Primary Interior Components](ITC/Reference Materials/Primary Interior Components.png)
+### Primary Interior Components
+![Primary Interior Components](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Primary%20Interior%20Components.png?raw=true)
+*Source: MicroCal PEAQ-ITC Automated User Manual; Version MAN0575-02-EN-00; page 14
 
 ---
 ## **Materials**
