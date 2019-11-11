@@ -122,14 +122,16 @@ Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able ge
   - [ ] There is a 1 minute shake using Inheco 1 (Make sure this is the Inheco that the RoMa moves the plate to.)
 
 - **The physical worktable MATCHES the representation on EVOWARE software.**
+![EVO WorkTable](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Worktable.png?raw=true)
 
-![EVO WorkTable](MicroCal PEAQ-ITC Auto/Worktable.png)
   - [ ] 50 µL DiTi Tips are on Position 1 of Rack at Grid 27.
   - [ ] Source Vial Plate are at Position 2 of Rack at Grid 27.
-
     - [ ] Position A1 is [Protein]
     - [ ] Position B1 is [Ligand]
 
+        ![Source Vial Holder](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Source%20Vial%20Holder.png?raw=true)
+
+        _Note:_ THERE IS NO OTHER VIALS IN THE HOLDER. This is important as there is nothing in the way of the RoMa when it moves the ITC plate from the origin location to the inheco.
   - [ ] ITC Destination Plate is at Position 3 of Rack at Grid 43.
 
 ### Commonly Used Protocols
@@ -151,25 +153,30 @@ The most commonly used script is generated from the [itctools GitHub repository]
     - [ ] Experiment has the correct spreadsheet within imported
     - [ ] The correct `General Protocols` are being used (Double check within the `Instrument Set Up` window)
 
-  - When everything looks good, Press `Validate` in toolbar
+  - When everything looks good, Press `Validate` in toolbar.
 
-    - [ ] Make sure there is enough diH2O, Detergent, or Ethanol present to run the experiment
+    - [ ] Make sure there is enough diH2O, Detergent, and Ethanol present to run the experiment.
+      - Reference the window that opens which shows the volume of each liquid consumed and the amount of waste produced by running the experiment.
 
-      - Reference the window that opens that shows the volume of each liquid needed and the amount of waste produced
-
-    - [ ] Make sure there is room within the waste bottle to hold the amount of waste being proeduced by the experiment
+    - [ ] Make sure there is room within the waste bottle to hold the amount of waste being produced by the experiment
 
 ### Calculations
 
-There are only two calculations necessary for the set up/running an ITC experiment.
+There are only two calculations necessary for the set up/running of an ITC experiment.
 
 **Calculate Molarity of Dialyzed Protein:** Molarity = [Concentration]/molecular_weight
 
-**Calculate a 10 µM Micromolecule Concentration Stock:** This can be done by hand or you can run a script called: `edited_protein_volume_calculation.py` found in [Choderalab/wetlab-protocols/frequent_calculations_during_experimentation_preparation][3983f2d8]
+**Calculate a 10 µM Micromolecule Concentration Stock:** This can be done by hand or you can run a script: `edited_protein_volume_calculation.py` found in [Choderalab/wetlab-protocols/frequent_calculations_during_experimentation_preparation][3983f2d8]
 
 - This program prompts user for `concentration`, `molecular_weight` and desired molarity and outputs the amount of volume needed for the desired molarity (Based on a total of 10 mL Stock Solution)
 
 ### Interpretation of Results
+#### Raw Data
+
+The temperature difference between the sample cell and the reference cell is converted to power and directly read out as raw data. An example of this is shown in the following illustration. Each spike, followed by a return to the baseline, is an injection.
+
+
+#### Results via `itc-tools`
 
 Denote where results are SAVED, type of file (i.e. `.xml`), specific units, if there is a script/tool used to read results, etc. denote all here
 
@@ -212,7 +219,7 @@ There are Two Recommended Cleaning Routines:
 2. Open Door to instrument (Tap `Open Door` on Touchpad). The valve causing problems is the furthest rightmost on the back inside of the unit.
 3. With a **flathead screwdriver**, unscrew the screws on either side of the valve (Left and right)(See Photo). **Keep the tubes connected to the valve.** Using a pair of **pliers**, twist the silver knobs on top and bottom of the valve until they come loose. Screw the valve back into place and then tighten the silver knobs again. This should realign the valve.
 
-_If Problem Remains:_ There is an older valve near the detergent solution that can be used in case the current one gets stuck and cannot be loosened.
+_If Problem Remains:_ There is an older valve near the detergent solution that can be used in case the current one gets stuck and cannot be loosened. (Consult user manual on how to replace.)
 
 #### Initialization & homing fails
 
