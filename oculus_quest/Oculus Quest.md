@@ -9,7 +9,7 @@ An All-In-One Virtual Reality system that does not require a PC. As of November 
 |:----------------------:|:-----------------------:|:----------------------:|
 | **Headset Serial No.** |     1PASH9BP3E9367      |     1PASH9BNTA9355     |
 |  **Unit Serial No.**   |     1PAVR2F0649375      |     1PAVR2FAEC9376     |
-
+*Note:* Red vs. Green is based off of the color of the small dot sticker on the unit.
   - **MSK ID:** Not Needed
   - **Contact:** [Nanome Home Webpage](https://nanome.ai/nanome/)
 ---
