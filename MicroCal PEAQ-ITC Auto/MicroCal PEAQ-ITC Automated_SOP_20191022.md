@@ -25,15 +25,15 @@
 
 ## **Materials**
 
-Item                                           | Supplier                                    | Part Number                              | Purpose
-:--------------------------------------------- | :------------------------------------------ | :--------------------------------------- | :--------------------------------------------------
-D-Tube Dialyzer                                | Novagen                                     | 71506-3 or 71504-3                       | Used in Protein Dialysis
-D-Tube Buoy                                    | Novagen                                     | 71513-3 or 71514-3                       | Allow the D-Tube to float in buffer during dialysis
-150 mL Rapid-Flow Bottle Top Filter            | ThermoFisher                                | 290-4520                                 | To Filter Dialysis Buffer of any particulate
+Item                                           | Supplier                                    | Part Number           | Purpose
+:--------------------------------------------- | :------------------------------------------ | :-------------------- | :--------------------------------------------------
+D-Tube Dialyzer                                | Novagen                                     | 71506-3 or 71504-3    | Used in Protein Dialysis
+D-Tube Buoy                                    | Novagen                                     | 71513-3 or 71514-3    | Allow the D-Tube to float in buffer during dialysis
+150 mL Rapid-Flow Bottle Top Filter            | ThermoFisher                                | 290-4520              | To Filter Dialysis Buffer of any particulate
 Quantos Dosing Head                            | Metler-Toledo                               | QH002-CNMW,QH010-CNMW | Precise dispensing of protein/ligand solids
-Dram Vials (amber glass bottles)               | Fisher                                      | 03-339-23D                               | Long-Term storage of Stock solutions
-96 well, 1mL, ITC plate                        | Thermo Scientific                           | 260251 & 260252                          | Consumable used in experiment
-Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International (rpi) Corp. | 202515                                   | Used to cover the ITC Plate after set up
+Dram Vials (amber glass bottles)               | Fisher                                      | 03-339-23D            | Long-Term storage of Stock solutions
+96 well, 1mL, ITC plate                        | Thermo Scientific                           | 260251 & 260252       | Consumable used in experiment
+Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International (rpi) Corp. | 202515                | Used to cover the ITC Plate after set up
 
 ### Sample: **Protein Macromolecule -and- Ligand micromolecule**
 
@@ -107,22 +107,23 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 
 #### Tecan EVO automated Set Up of Plate
 
-Utlizing the `choderalab/itctools/itctools/procedures.py` from the we are able generate two Tecan EVO worklist files (`.gwl`) that can be used to set up a plate for ITC experiments. In addition, an `.csv` spreadhseet is produced that allows the MicroCal PEAQ-ITC software to perform a series of experiments.
+Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able generate two Tecan EVO worklist files (`.gwl`) that can be used to set up a plate for ITC experiments. In addition, an `.csv` spreadhseet is produced that can be uploaded to the MicroCal PEAQ-ITC software that automatically fills in the proper commands for the experiments.
 
-- After uploading the `.gwl` worklists to EVOWARE software, one must make sure to check the protocol and worktable for possible mistakes. The complete EVOWARE script should run the worklists, then do a 1 minute shake before completed. If concerned about the EVO script, it is recommended to run the script with water in all locations before using your actual materials/resources.
+- After uploading the `.gwl` worklists into the EVOWARE software, one must make sure to check the protocol and worktable for possible mistakes. The complete EVOWARE script should run both worklists, then do a 1 minute shake. If concerned about any of the steps in the EVO script/worried about the generated `.gwl` files, it is recommended to run the script with water in all locations before using your actual materials/resources.
 
   - Current working EVO Script (As of 8 November 2019): `WIP_20191023_ITC_SetUp_EAG_BK` (Script takes ~10-15 minutes per ligand/protein pair)
 
 **Checklist:**
 
-- **Correct worklists are uploaded in the correct place**
+- **Check that the EVO script is correct.**
 
-  - [ ] The `LiHa.gwl` should be added FIRST and then the `aLiHa.gwl` is the SECOND worklist.
-  - [ ] The RoMa moves the ITC Plate from the origin space on the worktable to inheco.
-  - [ ] There is a 1 minute shake Inheco 1.
+  - [ ] The `LiHa.gwl` should be added FIRST and then `aLiHa.gwl` is the SECOND worklist.
+  - [ ] Make sure there is nothing in the path of the RoMa! (The RoMa moves the ITC Plate from the origin space on the worktable to the inheco.)
+  - [ ] There is a 1 minute shake using Inheco 1 (Make sure this is the Inheco that the RoMa moves the plate to.)
 
 - **The physical worktable MATCHES the representation on EVOWARE software.**
 
+![EVO WorkTable](MicroCal PEAQ-ITC Auto/Worktable.png)
   - [ ] 50 µL DiTi Tips are on Position 1 of Rack at Grid 27.
   - [ ] Source Vial Plate are at Position 2 of Rack at Grid 27.
 
