@@ -1,5 +1,5 @@
 # lab-protocols
-A **Standard Operation Protocol (SOP)** in markdown format for: 
+A **Standard Operation Protocol (SOP)** in markdown format for:
 	* Automation Equipment
 		* Software programs
 	* Safety Protocols
