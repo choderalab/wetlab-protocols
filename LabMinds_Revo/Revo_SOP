@@ -6,6 +6,7 @@ LabMinds Revo is an automated solutions preparation system. Mostly creating buff
   - **Model** LabMinds Revo (2013)
   - **Serial No.** RV01-201509-QC8L7SH
   - **MSK ID:** 700859
+    - **iPad Password:** 3412
   - **Contact:** Guénolée Ribadeau-Dumas ([guenolee@labminds.co.uk](guenolee@labminds.co.uk)), Musab Siddiqui ([musab@labminds.com](musab@labminds.com)), Daniel Haplin ([daniel@labminds.co.uk](daniel@labminds.co.uk))
 ---
 ## **Instrument Breakdown**
@@ -16,9 +17,6 @@ LabMinds Revo is an automated solutions preparation system. Mostly creating buff
 ---
 ## **Materials**
 Please reference the [**Revo Inventory Google Sheet**](https://docs.google.com/spreadsheets/d/1qBT_qh0s9oGIDv4StQisqJGSRAJep7JFGqRLMBkkwI8/edit) for all solids and liquids consumable materials used with the Revo.
-
-### Sample
-N/A
 
 ---
 ## **Procedure**
@@ -31,6 +29,13 @@ Common scripts/programs run
 ---
 ## **Quality Control/Preventative Maintenance**
 ### Weekly Maintenance
+As a part of Weekly Pair Tasks, lab members must **check that REVO is connected to internet.** This is done by...
+1. Triple press the home button on the iPad → Unlock Guided Access by entering the iPad's passcode (`3412`)
+2. Naviage to the `Settings` menu on iPad.
+3. Check that the wifi connection is on and working. (*The Revo utilizes a special  connection that bypasses MSKCC firewalls and allows LabMinds to remotely control the instrument.*)
+   * Note: The connection usually lasts longer if you use a personal MSK account wifi option rather than the guest
+4. If connected, navigate back to the `Lab Minds Revo App` (sort of looks like a taxi cab yellow/black stripe)
+
 Maintenance performed by Lab Techs/Chodera Lab Members
 ### Common TroubleShooting
 Common Problems that the instrument runs into and how to fix it
@@ -47,8 +52,12 @@ Common Problems that the instrument runs into and how to fix it
 | i.e. Chemicaly Inventory Check | Yearly    |
 
 ### Waste Management/Cleaning
-Procedure used at end of experiment to clean instrument
+Any improperly made buffer follow New York City regulations for waste. They are brought back to a neutral pH of 7 and diluted before being drained down the sink.
 
 ---
 ## **References**
+* [EEG `How To` Reference](https://docs.google.com/document/d/1jXylM1V4rRFd095fanQyhmHRPfb5BEhlnQNWhXT_VIk/edit)  made June 2019
+* [Revo Issue Log](https://docs.google.com/document/d/1TaHDRuoNNjFqN6W0eEHpQh3gKs0E0rMWP5z1HiGOgt8/edit)
+* [Google Drive Folder](https://drive.google.com/drive/folders/1LUN-aOwzCzdFAn4lFpMO6cXeXrWlFssU) of User manuals sent from LabMinds
+
 **Links:** User Manual, Projects that use particular instrument (Lab notebooks), Issue Log, etc.
