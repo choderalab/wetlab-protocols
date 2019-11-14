@@ -25,15 +25,15 @@
 
 ## **Materials**
 
-Item                                           | Supplier                                    | Part Number           | Purpose
-:--------------------------------------------- | :------------------------------------------ | :-------------------- | :--------------------------------------------------
-D-Tube Dialyzer                                | Novagen                                     | 71506-3 or 71504-3    | Used in Protein Dialysis
-D-Tube Buoy                                    | Novagen                                     | 71513-3 or 71514-3    | Allow the D-Tube to float in buffer during dialysis
-150 mL Rapid-Flow Bottle Top Filter            | ThermoFisher                                | 290-4520              | To Filter Dialysis Buffer of any particulate
-Quantos Dosing Head                            | Metler-Toledo                               | QH002-CNMW,QH010-CNMW | Precise dispensing of protein/ligand solids
-Dram Vials (amber glass bottles)               | Fisher                                      | 03-339-23D            | Long-Term storage of Stock solutions
-96 well, 1mL, ITC plate                        | Thermo Scientific                           | 260251 & 260252       | Consumable used in experiment
-Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International (rpi) Corp. | 202515                | Used to cover the ITC Plate after set up
+| Item                                | Supplier            | Part Number           | Purpose                                             |
+|:------------------------------------|:--------------------|:----------------------|:----------------------------------------------------|
+| D-Tube Dialyzer                     | Novagen             | 71506-3 or 71504-3    | Used in Protein Dialysis                            |
+| D-Tube Buoy                         | Novagen             | 71513-3 or 71514-3    | Allow the D-Tube to float in buffer during dialysis |
+| 150 mL Rapid-Flow Bottle Top Filter | ThermoFisher        | 290-4520              | To Filter Dialysis Buffer of any particulate        |
+| Quantos Dosing Head                 | Metler-Toledo       | QH002-CNMW,QH010-CNMW | Precise dispensing of protein/ligand solids         |
+| Dram Vials (amber glass bottles)    | Fisher              | 03-339-23D            | Long-Term storage of Stock solutions                |
+| 96 well, 1mL, ITC plate             | Thermo Scientific   | 260251 & 260252       | Consumable used in experiment                       |
+| Well plate film, slit seal          | Malvern Panalytical | PQA0001               | Used to cover the ITC Plate after set up            |
 
 ### Sample: **Protein Macromolecule -and- Ligand micromolecule**
 
@@ -81,6 +81,7 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 5. Calculate the Molarity of the Dialyzed Protein.
 
   - Molarity=[Concentration]/Molecular Weight
+
 6. Store protein in an amber vial [CAT NO. 03-339-23D] and Label: Contents, date, concentration, intials of creator
 
 `IT IS CRITICAL THAT ALL EXPERIMENTS OCCUR WITHIN THIS DIALYZED ITC ASSAY BUFFER, OTHERWISE THE RESULTS WILL BE SKEWED.` If one runs out of the 2L of ITC Assay Buffer, the entire set up/dialysis procedure needs to be repeated so that all experiments can be performed in the new dialysis buffer
@@ -91,10 +92,14 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 
 - First, purge the old buffer that was in the Mettler Toledo Quantos lines out of the liquid dosing head with the ITC Assay Buffer (that was not used in the dialysis) several times. Once cleaned, you can hook up the dialysate to the Quantos.
 - In addition, Fill a Quantos dosing head (ideally a 2 mL size head) with ligand powder.
+
   - **At a balance:** tare an empty dosing head
   - **In Z1739 fume hood:** Lay down a "lab bench pad" (to catch accidentally spilled compound) and open the dosing head. Then, carefully open the compound vial, and transfer the contents to the dosing head (use a small spatula to transfer the contents). Close the dosing head securely.
+
     - Pick up the corners of the lab bench pad and carefully carry back/dispose in the biohazard waste.
-  - **Go back to the balance:** Place the now filled dosing head on the previously-tared balance and record the mass of the compound contained within the dosing head.
+
+  - **Go back to balance:** Place the now filled dosing head on the previously-tared balance and record the mass of the compound contained within the dosing head.
+
     - Place the dosing head into the dosing head receptacle in the Quantos (making sure it is properly seated on the carrier). Run the **"Write Head" method** to label the dosing head. (More information can be found on this method within the [Mettler Toledo Quantos SOP](https://github.com/choderalab/wetlab-protocols/tree/EAG_SOP-Updates/Standardized_SOP/Wet_Lab_Automation))
 
 **Create Ligand Stock Solution**
@@ -127,17 +132,18 @@ Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able ge
   - [ ] Make sure there is nothing in the path of the RoMa! (The RoMa moves the ITC Plate from the origin space on the worktable to the inheco.)
   - [ ] There is a 1 minute shake using Inheco 1 (Make sure this is the Inheco that the RoMa moves the plate to.)
 
-- **The physical worktable MATCHES the representation on EVOWARE software.**
-![EVO WorkTable](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Worktable.png?raw=true)
+- **The physical worktable MATCHES the representation on EVOWARE software.** ![EVO WorkTable](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Worktable.png?raw=true)
 
   - [ ] 50 µL DiTi Tips are on Position 1 of Rack at Grid 27.
   - [ ] Source Vial Plate are at Position 2 of Rack at Grid 27.
+
     - [ ] Position A1 is [Protein]
     - [ ] Position B1 is [Ligand]
 
-        ![Source Vial Holder](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Source%20Vial%20Holder.png?raw=true)
+      ![Source Vial Holder](https://github.com/choderalab/wetlab-protocols/blob/ITC-SOP-Update/MicroCal%20PEAQ-ITC%20Auto/Source%20Vial%20Holder.png?raw=true)
 
-        _Note:_ THERE IS NO OTHER VIALS IN THE HOLDER. This is important as there is nothing in the way of the RoMa when it moves the ITC plate from the origin location to the inheco.
+      _Note:_ THERE IS NO OTHER VIALS IN THE HOLDER. This is important as there is nothing in the way of the RoMa when it moves the ITC plate from the origin location to the inheco.
+
   - [ ] ITC Destination Plate is at Position 3 of Rack at Grid 43.
 
 ### Commonly Used Protocols
@@ -162,6 +168,7 @@ The most commonly used script is generated from the [itctools GitHub repository]
   - When everything looks good, Press `Validate` in toolbar.
 
     - [ ] Make sure there is enough diH2O, Detergent, and Ethanol present to run the experiment.
+
       - Reference the window that opens which shows the volume of each liquid consumed and the amount of waste produced by running the experiment.
 
     - [ ] Make sure there is room within the waste bottle to hold the amount of waste being produced by the experiment
@@ -173,12 +180,12 @@ There are only two calculations necessary for the set up/running of an ITC exper
 **Calculate Molarity of Dialyzed Protein:** Molarity = [Concentration]/molecular_weight
 
 ### Interpretation of Results
+
 #### Raw Data
 
 The temperature difference between the sample cell and the reference cell is converted to power and directly read out as raw data. An example of this is shown in the following image (An injection is a )
 
 Each spike, followed by a return to the baseline, is an injection.
-
 
 #### Results via `itc-tools`
 
@@ -212,13 +219,14 @@ There are Two Recommended Cleaning Routines:
 
 - Select the `Clean Cell` button in the `System`tab and Run Method.
 - Run ITC Run Method: `water`; Automation Method: `Quick Plate`; 1 Sample Group; 1 Sample
+
   - A water-into-water titration experiment with _at least_ 15 injections of 2 µL each followed by the `Plates Clean` Automation Method.
 
-### **IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...**
-Weekly maintenance can be suspended. As long as the instrument is properly turned off:
+### **IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...** Weekly maintenance can be suspended. As long as the instrument is properly turned off:
+
 1. Remove ALL liquid from the **Reference Cell**
 2. Remove ALL liquid from the **Sample Cell** (Select ``)
-3. Turn off the instrument (Switch is on the back right).
+3. Turn off the instrument (Switch is on the back right)
 
 ### Common TroubleShooting
 
@@ -234,7 +242,7 @@ _If Problem Remains:_ There is an older valve near the detergent solution that c
 
 #### Initialization & homing fails
 
-**CAUSE:** This can occur from time-to-time (for what feels like little to no reasoning.)
+**CAUSE:** This can occur from time-to-time (for what feels like little to no reasoning).
 
 1. Shut down the software and turn off the instrument (button is on the bottom back right).
 2. Wait ~30 seconds.
@@ -244,15 +252,16 @@ _If Problem Remains:_ Refer to the Issue Log, User Manual, or, Contact Malvern P
 
 ### Supplemental Maintenance
 
-Type of Maintenance      | Frequency
-:----------------------- | :-----------------
-Preventative Maintenance | Yearly (~November)
+| Type of Maintenance      | Frequency          |
+|:-------------------------|:-------------------|
+| Preventative Maintenance | Yearly (~November) |
 
 ### Waste Management/Cleaning
 
-- Often, people leave their ITC plates in the room for someone else to dispose. However, we generally just carry them back down to our lab and dispose of them in our waste.
+Often, people leave their ITC plates in the room for someone else to dispose. However, we generally just carry them back down to our lab and dispose of them in our waste.
 
 ## **References**
+
 - Google Drive Folder of all [ITC Notebooks](https://drive.google.com/drive/folders/1Bi9_VVph2WMIFphzOQZQVk5hD650Lr7V)
 - PAPER: [Avoiding accuracy-limiting pitfalls in the study of protein-ligand interactions with isothermal titration calorimetry](https://drive.google.com/open?id=0B075He2poqy1SzZZcktWeGtfV0k)
 - [User Manuals](https://drive.google.com/drive/folders/1bBmXvKgpVCpEKrzSJ6JSfZtyGS8SE3Sk)
