@@ -211,9 +211,14 @@ It is important to perform weekly maintenance on the MicroCal PEAQ-ITC in order 
 There are Two Recommended Cleaning Routines:
 
 - Select the `Clean Cell` button in the `System`tab and Run Method.
-- Run Protocol: `water` (Added by Malvern Technician)
+- Run ITC Run Method: `water`; Automation Method: `Quick Plate`; 1 Sample Group; 1 Sample
   - A water-into-water titration experiment with _at least_ 15 injections of 2 µL each followed by the `Plates Clean` Automation Method.
 
+### **IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...**
+Weekly maintenance can be suspended. As long as the instrument is properly turned off:
+1. Remove ALL liquid from the **Reference Cell**
+2. Remove ALL liquid from the **Sample Cell** (Select ``)
+3. Turn off the instrument (Switch is on the back right).
 
 ### Common TroubleShooting
 
@@ -223,19 +228,19 @@ There are Two Recommended Cleaning Routines:
 
 1. Open ITC software (The instrument will attempt to `home` and fail/show an error. Click `OK` on error.)
 2. Open Door to instrument (Tap `Open Door` on Touchpad). The valve causing problems is the furthest rightmost on the back inside of the unit.
-3. With a **flathead screwdriver**, unscrew the screws on either side of the valve (Left and right)(See Photo). **Keep the tubes connected to the valve.** Using a pair of **pliers**, twist the silver knobs on top and bottom of the valve until they come loose. Screw the valve back into place and then tighten the silver knobs again. This should realign the valve.
+3. With a **flathead screwdriver**, unscrew the screws on either side of the valve (Left and right). **Keep the tubes connected to the valve.** Using a pair of **pliers**, twist the silver knobs on top and bottom of the valve until they come loose. Screw the valve back into place and then tighten the silver knobs again. This should realign the valve.
 
 _If Problem Remains:_ There is an older valve near the detergent solution that can be used in case the current one gets stuck and cannot be loosened. (Consult user manual on how to replace.)
 
 #### Initialization & homing fails
 
-**CAUSE:** This can occur from time-to-time with little to no reasoning.
+**CAUSE:** This can occur from time-to-time (for what feels like little to no reasoning.)
 
 1. Shut down the software and turn off the instrument (button is on the bottom back right).
 2. Wait ~30 seconds.
 3. Turn instrument back on and try again.
 
-_If Problem Remains:_ Refer to the User Manual or Contact Malvern Panalytical
+_If Problem Remains:_ Refer to the Issue Log, User Manual, or, Contact Malvern Panalytical
 
 ### Supplemental Maintenance
 
@@ -248,7 +253,10 @@ Preventative Maintenance | Yearly (~November)
 - Often, people leave their ITC plates in the room for someone else to dispose. However, we generally just carry them back down to our lab and dispose of them in our waste.
 
 ## **References**
-
-**Links:** User Manual, Projects that use particular instrument (Lab notebooks), Issue Log, etc.
+- Google Drive Folder of all [ITC Notebooks](https://drive.google.com/drive/folders/1Bi9_VVph2WMIFphzOQZQVk5hD650Lr7V)
+- PAPER: [Avoiding accuracy-limiting pitfalls in the study of protein-ligand interactions with isothermal titration calorimetry](https://drive.google.com/open?id=0B075He2poqy1SzZZcktWeGtfV0k)
+- [User Manuals](https://drive.google.com/drive/folders/1bBmXvKgpVCpEKrzSJ6JSfZtyGS8SE3Sk)
+- [Malvern Learning Center Webpage](https://www.malvernpanalytical.com/en/learn/knowledge-center)
+- [Issue Log](https://docs.google.com/document/d/1GzK5D7LE2RcCAvm9taf1UtWvZMfvuvpbdGMtLkL5MhI/edit#)
 
 [3983f2d8]: https://github.com/choderalab/wetlab-protocols/tree/master/Frequent_calculations_during_experiment_preparation "GitHub"
