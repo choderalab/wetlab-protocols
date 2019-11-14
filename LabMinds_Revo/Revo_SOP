@@ -31,18 +31,25 @@ Common scripts/programs run
 ### Weekly Maintenance
 As a part of Weekly Pair Tasks, lab members must **check that REVO is connected to internet.** This is done by...
 1. Triple press the home button on the iPad → Unlock Guided Access by entering the iPad's passcode (`3412`)
-2. Naviage to the `Settings` menu on iPad.
-3. Check that the wifi connection is on and working. (*The Revo utilizes a special  connection that bypasses MSKCC firewalls and allows LabMinds to remotely control the instrument.*)
+2. NAvigate to `Settings` menu on iPad
+3. Check that the wifi connection is on and working (*The Revo utilizes a special  connection that bypasses MSKCC firewalls and allows LabMinds to remotely control the instrument.*)
    * Note: The connection usually lasts longer if you use a personal MSK account wifi option rather than the guest
-4. If connected, navigate back to the `Lab Minds Revo App` (sort of looks like a taxi cab yellow/black stripe)
+4. If connected, navigate back to the `Lab Minds Revo App` (sort of looks like a taxi cab yellow/black stripe; app is located in the bottom menu bar of iPad)
 
 Maintenance performed by Lab Techs/Chodera Lab Members
 ### Common TroubleShooting
-Common Problems that the instrument runs into and how to fix it
-#### List Problem
-**CAUSE:** Explain probably cause for Issue
-  1. List steps to correct issue.
-#### Second Problem, etc.
+#### Unable to Dose Solid
+**CAUSE:** Certain chemicals tend to clump together at times depending on the humidity of the lab.
+  1. Log into LabMinds Account → Click ⚖️(balance) to `Restock Solids`
+  2. Select chemical that is having trouble dosing.
+  3. Open the top `Solid Carousel` door and remove the bottle from the carousel. KEEP THE CAROUSEL DOOR OPEN.
+  4. Remove the dosing head contraption and with a spatula, break up any solid clumps that can be seen. This may take time/muscle. You could also place parafilm on the top of the bottle and give the bottle a good shake.
+  5. Check the dosing head: MAke sure there is no visible clumps within the inside of the gear. If so, remove/clean out as much of the solid as possible.
+  6. Re-assemble the solid stock bottle with the dosing head and replace within the same slot in the carousel.
+  7. Close the door and pres `Complete` on the iPad screen.
+#### Unable to Dispense Liquid
+**CAUSE:** Sometimes the 
+
 
 ### Supplemental Maintenance
 

@@ -62,7 +62,7 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 **Phase 1: Dialyze Protein**
 
 1. Order/Prepare the approrpiate ITC Assay buffer via Revo or by hand. Store at 4 ˚C until needed.
-2. Pre-wet Novagen D-Tube Dialyzer Midi (MWCO 3.5kDa) [CAT NO. 71506-3; Lot D00167915] with 800 µL of diH2O and let tube sit ~4 minutes.
+2. Pre-wet Novagen D-Tube Dialyzer Midi (MWCO 3.5kDa) [CAT NO. 71506-3; Record LOT] with 800 µL of diH2O and let tube sit ~4 minutes.
 3. While the D-Tube Dialyzer was sitting: Dissolve ~5 mg of Macromolecule Protein in 750 µµL of ITC Buffer. Make sure to dissolve the protein completely by slowly pipetting up and down several times, being careful to **not** create bubbles.
 4. After a few minutes, remove as much of the 800 µL diH2O as possible from the D-Tube Dialyzer. Then, add the 750 µL of suspended protein to the D-Tube Dialyzer.
 5. The screw cap was **CAREFULLY** placed on the D-Tube and **lightly tightened** . The D-Tube is then **carefully** pushed into a foam buoy float so that the foam sat underneath the lip of the tube and the entire dialysis window could still be seen).
@@ -73,7 +73,7 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 1. Remove the Beaker from the cold room the following morning.
 2. Carefully, remove as much as dialzyed protein as possible from the D-Tube dialyzer and place into a sterile 1.5 mL eppendorf tube.
 3. Spin protein at 4,000 rcf (6526 rpm) for 30 min @ 4 ̊C to remove unfolded protein.
-4. Keep the Dialyzed protein on ice and Measure the A280 concentration of the protein with the Denovix DX11+ Nanodrop using 2 µL of sample.
+4. Keep the Dialyzed protein on ice and Measure the A280 concentration of the protein (mg/mL) with the Denovix DX11+ Nanodrop using 2 µL of sample.
 
   - Be sure to use the correct Denovix Presets with the correct Molecular Weight and extinction coefficient for the protein.
   - Take a total of 2 Readings and calculate the average. Utlize the average value to calculate the Molarity of the dialyzed Protein.
@@ -81,6 +81,7 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 5. Calculate the Molarity of the Dialyzed Protein.
 
   - Molarity=[Concentration]/Molecular Weight
+6. Store protein in an amber vial [CAT NO. 03-339-23D] and Label: Contents, date, concentration, intials of creator
 
 `IT IS CRITICAL THAT ALL EXPERIMENTS OCCUR WITHIN THIS DIALYZED ITC ASSAY BUFFER, OTHERWISE THE RESULTS WILL BE SKEWED.` If one runs out of the 2L of ITC Assay Buffer, the entire set up/dialysis procedure needs to be repeated so that all experiments can be performed in the new dialysis buffer
 
@@ -89,7 +90,12 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 **Preperation**
 
 - First, purge the old buffer that was in the Mettler Toledo Quantos lines out of the liquid dosing head with the ITC Assay Buffer (that was not used in the dialysis) several times. Once cleaned, you can hook up the dialysate to the Quantos.
-- In addition, Fill a Quantos dosing head (ideally a 2 mL) with ligand powder.
+- In addition, Fill a Quantos dosing head (ideally a 2 mL size head) with ligand powder.
+  - **At a balance:** tare an empty dosing head
+  - **In Z1739 fume hood:** Lay down a "lab bench pad" (to catch accidentally spilled compound) and open the dosing head. Then, carefully open the compound vial, and transfer the contents to the dosing head (use a small spatula to transfer the contents). Close the dosing head securely.
+    - Pick up the corners of the lab bench pad and carefully carry back/dispose in the biohazard waste.
+  - **Go back to the balance:** Place the now filled dosing head on the previously-tared balance and record the mass of the compound contained within the dosing head.
+    - Place the dosing head into the dosing head receptacle in the Quantos (making sure it is properly seated on the carrier). Run the **"Write Head" method** to label the dosing head. (More information can be found on this method within the [Mettler Toledo Quantos SOP](https://github.com/choderalab/wetlab-protocols/tree/EAG_SOP-Updates/Standardized_SOP/Wet_Lab_Automation))
 
 **Create Ligand Stock Solution**
 
@@ -109,7 +115,7 @@ Piereable Adhesive Free Zone Film, Non-Sterile | Research Products International
 
 Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able generate two Tecan EVO worklist files (`.gwl`) that can be used to set up a plate for ITC experiments. In addition, an `.csv` spreadhseet is produced that can be uploaded to the MicroCal PEAQ-ITC software that automatically fills in the proper commands for the experiments.
 
-- After uploading the `.gwl` worklists into the EVOWARE software, one must make sure to check the protocol and worktable for possible mistakes. The complete EVOWARE script should run both worklists, then do a 1 minute shake. If concerned about any of the steps in the EVO script/worried about the generated `.gwl` files, it is recommended to run the script with water in all locations before using your actual materials/resources.
+- After uploading the `.gwl` worklists into the EVOWARE software, one must make sure to check the protocol and worktable for possible mistakes. The complete EVOWARE script should run both worklists, then do a 1 minute shake. If concerned about any of the steps in the EVO script/worried about the generated `.gwl` file, it is recommended to run the script with water in all locations before using your actual materials/resources.
 
   - Current working EVO Script (As of 8 November 2019): `WIP_20191023_ITC_SetUp_EAG_BK` (Script takes ~10-15 minutes per ligand/protein pair)
 
@@ -136,7 +142,7 @@ Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able ge
 
 ### Commonly Used Protocols
 
-The most commonly used script is generated from the [itctools GitHub repository](https://github.com/choderalab/itctools/tree/caii/itctools) (specifically the `experiment.py` script) that generates an excel `.xml` spreadsheet that can be imported as an experiment in the MicroCal PEAQ ITC software that automatically defines the cell and syringe sources for each titration series.
+The most commonly used script is generated from the [itctools GitHub repository](https://github.com/choderalab/itctools/tree/caii/itctools) (specifically the `experiment.py` script). This python script generates an excel `.xml` spreadsheet that can be imported as an experiment in the MicroCal PEAQ ITC software that automatically defines the cell and syringe sources for each titration series.
 
 - After uploading the `.xml` to the `Experiments` tab on the MicroCal PEAQ-ITC Auto Software, one must make sure to check the finished protocol for possible mistakes.
 
@@ -166,14 +172,12 @@ There are only two calculations necessary for the set up/running of an ITC exper
 
 **Calculate Molarity of Dialyzed Protein:** Molarity = [Concentration]/molecular_weight
 
-**Calculate a 10 µM Micromolecule Concentration Stock:** This can be done by hand or you can run a script: `edited_protein_volume_calculation.py` found in [Choderalab/wetlab-protocols/frequent_calculations_during_experimentation_preparation][3983f2d8]
-
-- This program prompts user for `concentration`, `molecular_weight` and desired molarity and outputs the amount of volume needed for the desired molarity (Based on a total of 10 mL Stock Solution)
-
 ### Interpretation of Results
 #### Raw Data
 
-The temperature difference between the sample cell and the reference cell is converted to power and directly read out as raw data. An example of this is shown in the following illustration. Each spike, followed by a return to the baseline, is an injection.
+The temperature difference between the sample cell and the reference cell is converted to power and directly read out as raw data. An example of this is shown in the following image (An injection is a )
+
+Each spike, followed by a return to the baseline, is an injection.
 
 
 #### Results via `itc-tools`
@@ -184,11 +188,11 @@ Denote where results are SAVED, type of file (i.e. `.xml`), specific units, if t
 
 ## **Quality Control/Preventative Maintenance Protocols**
 
-### Weekly Maintenance
+### **Weekly Maintenance**
 
 It is important to perform weekly maintenance on the MicroCal PEAQ-ITC in order to prevent bacterial growth in the reference cell and clogging of the system lines.
 
-#### Part I: Refill the Reference Cell
+#### Part I: **Refill the Reference Cell**
 
 1. Collect fresh distilled water from the 1745D (wetlab) in a 1.5 mL eppendorf tube.
 2. Open Open Tube Rack (Tap `Open Tube Rack` on Touchpad and get the Hamilton Syruinge that is stored there. Close Drawer.
@@ -197,17 +201,19 @@ It is important to perform weekly maintenance on the MicroCal PEAQ-ITC in order 
 5. Empty the syringe.
 6. Pull ~300 µL of **DEGASSED,DISTILLED WATER** into the syringe.
 7. Gently refill the cell so that the only bubbles are at the top volume of the syringe. Refil the cell until water spills out over the top of the cell stem.
-8. **IMPORTANT: DISLODGE ANY TRAPPED BUBBLES.** This can be done with several abrupt spurts of the water solution.
+8. **DISLODGE ANY TRAPPED BUBBLES.** This is IMPORTANT as bubbles can effect the experiments! Dislodging bubbles can be done with several abrupt spurts of the water solution.
 9. Lift the tip of the syringe to the cell port (just below the visible portion of the cell port) and remove the excess water solution.
 10. Remove the syringe from the reference cell, close/latch the door. Turn off the interior light.
 11. Place the glas syringe back into the Tube Rack Drawer.
 
-#### Part II: Clean the cell
+#### Part II: **Clean the cell**
 
 There are Two Recommended Cleaning Routines:
 
 - Select the `Clean Cell` button in the `System`tab and Run Method.
-- Run a water-into-water titration experiment with at least 15 injections of 2 µL each followed by the `Plates Clean` Automation Method.
+- Run Protocol: `water` (Added by Malvern Technician)
+  - A water-into-water titration experiment with _at least_ 15 injections of 2 µL each followed by the `Plates Clean` Automation Method.
+
 
 ### Common TroubleShooting
 
