@@ -1,6 +1,6 @@
 # **MicroCal PEAQ-ITC Automated**
 
-**Isothermal titration microcalorimetry (ITC)** allows for direct, label-free in-solution measurements of binding affinities and thermodynamics of compounds. This enables the accurate determination of binding constants (KD), reaction stoichiometry (n), enthalpy (ΔH), and entropy (ΔS). Heat is released/absorbed as a result of the redistribution and formation of non-covalent bonds when the interacting molecules go from the free to the bound state which is measured by the ITC instrument.
+**Isothermal titration microcalorimetry (ITC)** allows for direct, label-free, in-solution measurements of binding affinities and thermodynamics of compounds. This enables the accurate determination of binding constants (KD), reaction stoichiometry (n), enthalpy (ΔH), and entropy (ΔS). Heat is released/absorbed as a result of the redistribution and formation of non-covalent bonds when the interacting molecules go from the free to the bound state which is then measured by the ITC instrument.
 
 ## **Service Information**
 
@@ -9,7 +9,48 @@
 - **MSK ID:** _As of 2019 November, there is no MSK ID_
 - **Contact:** 1-800-932-0101 option 2; 508-768-6450; <support.us@malvernpanalytical.com>
 
---------------------------------------------------------------------------------
+## **Table of Contents**
+
+<details><summary>
+Click Here to Expand
+</summary>
+
+  <!-- TOC -->
+  - [**MicroCal PEAQ-ITC Automated**](#microcal-peaq-itc-automated)
+    - [**Service Information**](#service-information)
+    - [**Table of Contents**](#table-of-contents)
+    - [**Instrument Breakdown**](#instrument-breakdown)
+      - [System Overview](#system-overview)
+      - [Primary Interior Components](#primary-interior-components)
+    - [**Materials**](#materials)
+      - [Sample: **Protein Macromolecule -and- Ligand micromolecule**](#sample-protein-macromolecule--and--ligand-micromolecule)
+    - [**Procedures**](#procedures)
+      - [**General Notes**](#general-notes)
+      - [**Sample Preparation**](#sample-preparation)
+        - [Macromolecule Protein Set Up via **Protein Dialysis**](#macromolecule-protein-set-up-via-protein-dialysis)
+        - [Micromolecule Ligand Set Up](#micromolecule-ligand-set-up)
+        - [Tecan EVO automated Set Up of Plate](#tecan-evo-automated-set-up-of-plate)
+      - [Commonly Used Protocols](#commonly-used-protocols)
+      - [Calculations](#calculations)
+      - [Interpretation of Results](#interpretation-of-results)
+        - [Raw Data](#raw-data)
+        - [Results via `itc-tools`](#results-via-itc-tools)
+    - [**Quality Control/Preventative Maintenance Protocols**](#quality-controlpreventative-maintenance-protocols)
+      - [**Weekly Maintenance**](#weekly-maintenance)
+        - [Part I: **Refill the Reference Cell**](#part-i-refill-the-reference-cell)
+        - [Part II: **Clean the cell**](#part-ii-clean-the-cell)
+      - [**IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...**](#if-the-itc-is-not-going-to-be-in-use-for-several-weeks)
+      - [Common TroubleShooting](#common-troubleshooting)
+        - [Transfer Arm Valve Gets Stuck](#transfer-arm-valve-gets-stuck)
+        - [Initialization & homing fails](#initialization--homing-fails)
+      - [Supplemental Maintenance](#supplemental-maintenance)
+      - [Waste Management/Cleaning](#waste-managementcleaning)
+    - [**References**](#references)
+  <!-- /TOC -->
+
+</details>
+
+--------------------------------------------------------------------------
 
 ## **Instrument Breakdown**
 
@@ -25,15 +66,15 @@
 
 ## **Materials**
 
-| Item                                | Supplier            | Part Number           | Purpose                                             |
-|:------------------------------------|:--------------------|:----------------------|:----------------------------------------------------|
-| D-Tube Dialyzer                     | Novagen             | 71506-3 or 71504-3    | Used in Protein Dialysis                            |
-| D-Tube Buoy                         | Novagen             | 71513-3 or 71514-3    | Allow the D-Tube to float in buffer during dialysis |
-| 150 mL Rapid-Flow Bottle Top Filter | ThermoFisher        | 290-4520              | To Filter Dialysis Buffer of any particulate        |
-| Quantos Dosing Head                 | Metler-Toledo       | QH002-CNMW,QH010-CNMW | Precise dispensing of protein/ligand solids         |
-| Dram Vials (amber glass bottles)    | Fisher              | 03-339-23D            | Long-Term storage of Stock solutions                |
-| 96 well, 1mL, ITC plate             | Thermo Scientific   | 260251 & 260252       | Consumable used in experiment                       |
-| Well plate film, slit seal          | Malvern Panalytical | PQA0001               | Used to cover the ITC Plate after set up            |
+| Item                                | Supplier          | Part Number           | Purpose                                             |
+|:------------------------------------|:------------------|:----------------------|:----------------------------------------------------|
+| D-Tube Dialyzer                     | Novagen           | 71506-3 or 71504-3    | Used in Protein Dialysis                            |
+| D-Tube Buoy                         | Novagen           | 71513-3 or 71514-3    | Allow the D-Tube to float in buffer during dialysis |
+| 150 mL Rapid-Flow Bottle Top Filter | ThermoFisher      | 290-4520              | To Filter Dialysis Buffer of any particulate        |
+| Quantos Dosing Head                 | Metler-Toledo     | QH002-CNMW,QH010-CNMW | Precise dispensing of protein/ligand solids         |
+| Dram Vials (amber glass bottles)    | Fisher            | 03-339-23D            | Long-Term storage of Stock solutions                |
+| 96 well, 1mL, ITC plate             | Thermo Scientific | 260251 & 260252       | Consumable used in experiment                       |
+| TBD                                 | TBD               | TBD                   | Used to cover the ITC Plate after set up            |
 
 ### Sample: **Protein Macromolecule -and- Ligand micromolecule**
 
@@ -62,7 +103,7 @@
 **Phase 1: Dialyze Protein**
 
 1. Order/Prepare the approrpiate ITC Assay buffer via Revo or by hand. Store at 4 ˚C until needed.
-2. Pre-wet Novagen D-Tube Dialyzer Midi (MWCO 3.5kDa) [CAT NO. 71506-3; Record LOT] with 800 µL of diH2O and let tube sit ~4 minutes.
+2. Pre-wet Novagen D-Tube Dialyzer Midi (MWCO 3.5kDa) [CAT NO. 71506-3; be sure to Record LOT] with 800 µL of diH2O and let tube sit ~4 minutes.
 3. While the D-Tube Dialyzer was sitting: Dissolve ~5 mg of Macromolecule Protein in 750 µµL of ITC Buffer. Make sure to dissolve the protein completely by slowly pipetting up and down several times, being careful to **not** create bubbles.
 4. After a few minutes, remove as much of the 800 µL diH2O as possible from the D-Tube Dialyzer. Then, add the 750 µL of suspended protein to the D-Tube Dialyzer.
 5. The screw cap was **CAREFULLY** placed on the D-Tube and **lightly tightened** . The D-Tube is then **carefully** pushed into a foam buoy float so that the foam sat underneath the lip of the tube and the entire dialysis window could still be seen).
@@ -222,7 +263,8 @@ There are Two Recommended Cleaning Routines:
 
   - A water-into-water titration experiment with _at least_ 15 injections of 2 µL each followed by the `Plates Clean` Automation Method.
 
-### **IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...** Weekly maintenance can be suspended. As long as the instrument is properly turned off:
+### **IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...**
+**Weekly maintenance can be suspended. As long as the instrument is properly turned off:**
 
 1. Remove ALL liquid from the **Reference Cell**
 2. Remove ALL liquid from the **Sample Cell** (Select ``)

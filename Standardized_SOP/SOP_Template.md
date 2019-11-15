@@ -7,7 +7,31 @@ Purpose of instrument (1-5 sentences)
   - **Serial No.**
   - **MSK ID:**
   - **Contact:**
----
+
+## **Table of Contents**
+<!-- TOC -->
+- [**Instrument Breakdown**](#instrument-breakdown)
+  - [Exterior](#exterior)
+  - [Interior](#interior)
+- [**Materials**](#materials)
+  - [Sample](#sample)
+- [**Procedure**](#procedure)
+  - [Software](#software)
+  - [Sample Preparation](#sample-preparation)
+  - [Commonly Used Protocols](#commonly-used-protocols)
+  - [Calculations](#calculations)
+  - [Interpretation of Results](#interpretation-of-results)
+- [**Quality Control/Preventative Maintenance**](#quality-controlpreventative-maintenance)
+  - [Weekly Maintenance](#weekly-maintenance)
+  - [Common TroubleShooting](#common-troubleshooting)
+    - [List Problem](#list-problem)
+    - [Second Problem, etc.](#second-problem-etc)
+  - [Supplemental Maintenance](#supplemental-maintenance)
+  - [Waste Management/Cleaning](#waste-managementcleaning)
+- [**References**](#references)
+<!-- /TOC -->
+
+------------------------------------------------------------------------------
 ## **Instrument Breakdown**
 List/Photos of important parts of the instrument that are commonly used/key to how instrument is used
 ### Exterior
