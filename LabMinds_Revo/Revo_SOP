@@ -3,7 +3,7 @@
 LabMinds Revo is an automated solutions preparation system. Mostly creating buffers, the maker doses and mixes precise quantities of solid and liquid reagents, and then processes them according to the profile's exact specifications/ratios. A Solution typically takes from ~45 minutes to complete. The Chodera Lab mostly order kinase binding assay buffer, phosphate buffer, and other purification buffers from it.
 
 ## **Service Information**
-  - **Model** LabMinds Revo (2013)
+  - **Model** LabMinds Revo (2016 Model)
   - **Serial No.** RV01-201509-QC8L7SH
   - **MSK ID:** 700859
     - **iPad Password:** 3412
@@ -20,21 +20,34 @@ Please reference the [**Revo Inventory Google Sheet**](https://docs.google.com/s
 
 ---
 ## **Procedure**
-### Software
-General Software "How To"/Creating new Scripts in software
+### Software: [LabMinds Revo Webpage](https://mskcc.labminds.com/auth/login/?next=/status/)
+**Ordering a Solution:**
+
+**Refill Bottle:**
+
+**Refill Liquid Stock:**
+
+**Refill Solid Chemical Stock:**
+
+**Adding a New Buffer to Menu:**
+As of November 2019, the only way to add a new solution to the menu of options is to email [LabMinds](guenolee@labminds.co.uk) directly. Currently, the Process is to:
+1. Name Buffer (Create a name that will be seen in the Revo Menu)
+2. List the Solution (i.e. 50 mM HEPES 150 mM NaCl Buffer, pH 7.5)
+3. Supply target quantities wanted for said solution (i.e. if wanting to add a 50 mM HEPES 150 mM NaCl Buffer, pH 7.5, I would tell LabMinds that the target quantity for 1 L solution would be 11.91506 g HEPES and 8.766 g NaCl)
 
 ### Commonly Used Protocols
-Common scripts/programs run
+**Bottle Assembly**
+In order to Restock a Bottle in the Revo
 
 ---
 ## **Quality Control/Preventative Maintenance**
 ### Weekly Maintenance
-As a part of Weekly Pair Tasks, lab members must **check that REVO is connected to internet.** This is done by...
+As a part of Weekly Pair Tasks, lab members must **check that REVO is connected to internet.** This is done by:
 1. Triple press the home button on the iPad → Unlock Guided Access by entering the iPad's passcode (`3412`)
-2. NAvigate to `Settings` menu on iPad
-3. Check that the wifi connection is on and working (*The Revo utilizes a special  connection that bypasses MSKCC firewalls and allows LabMinds to remotely control the instrument.*)
-   * Note: The connection usually lasts longer if you use a personal MSK account wifi option rather than the guest
-4. If connected, navigate back to the `Lab Minds Revo App` (sort of looks like a taxi cab yellow/black stripe; app is located in the bottom menu bar of iPad)
+2. Navigate to `Settings` menu on iPad
+3. Check that the wifi connection is on and working (*The Revo utilizes a special connection that bypasses MSKCC firewalls and allows LabMinds to remotely control the instrument.*)
+   * Note: The connection usually lasts longer if you use a personal MSK wifi account option rather than the guest network.
+4. If connected, navigate back to the `Lab Minds Revo App` (sort of looks like a taxi cab yellow/black stripe; app is located in the bottom menu bar of iPad of left hand side)
 
 Maintenance performed by Lab Techs/Chodera Lab Members
 ### Common TroubleShooting
@@ -47,8 +60,18 @@ Maintenance performed by Lab Techs/Chodera Lab Members
   5. Check the dosing head: MAke sure there is no visible clumps within the inside of the gear. If so, remove/clean out as much of the solid as possible.
   6. Re-assemble the solid stock bottle with the dosing head and replace within the same slot in the carousel.
   7. Close the door and pres `Complete` on the iPad screen.
+
+_If Problem Persists:_ Attempt to clean the dosing head via [Dosing Head Maintenance PDF](https://drive.google.com/open?id=1skmx6i_mKdAI3-IrVxLP3_7EQGHuFo_p)
+
 #### Unable to Dispense Liquid
-**CAUSE:** Sometimes the 
+**CAUSE:** Sometimes the Revo claims there is no liquid/not enough liquid to complete a particular solution. However, when looking at the stock bottle of said liquid, it clearly does have enough liquid. This can be do to the the fact that the liquid leveler from the cap of the bottle is not sufficiently submerged within the bottle.
+1. Log into LabMinds Account → Click on the 💧(droplet) to `Restock Liquids`
+2. Select chemical that is having trouble dosing.
+3. Remove cap to liquid stock bottle
+2. Pull the rubber tubing that goes through the cap further down into the bottle.
+3. Replace cap onto liquid stock bottle
+4. Press `Complete` on the iPad screen.
+
 
 
 ### Supplemental Maintenance
@@ -59,11 +82,11 @@ Maintenance performed by Lab Techs/Chodera Lab Members
 | i.e. Chemicaly Inventory Check | Yearly    |
 
 ### Waste Management/Cleaning
-Any improperly made buffer follow New York City regulations for waste. They are brought back to a neutral pH of 7 and diluted before being drained down the sink.
+Any improperly made buffer follow New York City regulations for waste. They are brought back to a neutral pH of 7 and diluted before being they are drained down the sink.
 
 ---
 ## **References**
-* [EEG `How To` Reference](https://docs.google.com/document/d/1jXylM1V4rRFd095fanQyhmHRPfb5BEhlnQNWhXT_VIk/edit)  made June 2019
+* [EEG `How To` Reference](https://docs.google.com/document/d/1jXylM1V4rRFd095fanQyhmHRPfb5BEhlnQNWhXT_VIk/edit) made June 2019
 * [Revo Issue Log](https://docs.google.com/document/d/1TaHDRuoNNjFqN6W0eEHpQh3gKs0E0rMWP5z1HiGOgt8/edit)
 * [Google Drive Folder](https://drive.google.com/drive/folders/1LUN-aOwzCzdFAn4lFpMO6cXeXrWlFssU) of User manuals sent from LabMinds
 

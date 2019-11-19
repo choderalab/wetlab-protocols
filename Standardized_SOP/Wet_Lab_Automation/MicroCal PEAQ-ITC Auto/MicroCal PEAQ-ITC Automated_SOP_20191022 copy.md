@@ -16,36 +16,33 @@ Click Here to Expand
 </summary>
 
   <!-- TOC -->
-  - [**MicroCal PEAQ-ITC Automated**](#microcal-peaq-itc-automated)
-    - [**Service Information**](#service-information)
-    - [**Table of Contents**](#table-of-contents)
-    - [**Instrument Breakdown**](#instrument-breakdown)
-      - [System Overview](#system-overview)
-      - [Primary Interior Components](#primary-interior-components)
-    - [**Materials**](#materials)
-      - [Sample: **Protein Macromolecule -and- Ligand micromolecule**](#sample-protein-macromolecule--and--ligand-micromolecule)
-    - [**Procedures**](#procedures)
-      - [**General Notes**](#general-notes)
-      - [**Sample Preparation**](#sample-preparation)
-        - [Macromolecule Protein Set Up via **Protein Dialysis**](#macromolecule-protein-set-up-via-protein-dialysis)
-        - [Micromolecule Ligand Set Up](#micromolecule-ligand-set-up)
-        - [Tecan EVO automated Set Up of Plate](#tecan-evo-automated-set-up-of-plate)
-      - [Commonly Used Protocols](#commonly-used-protocols)
-      - [Calculations](#calculations)
-      - [Interpretation of Results](#interpretation-of-results)
-        - [Raw Data](#raw-data)
-        - [Results via `itc-tools`](#results-via-itc-tools)
-    - [**Quality Control/Preventative Maintenance Protocols**](#quality-controlpreventative-maintenance-protocols)
-      - [**Weekly Maintenance**](#weekly-maintenance)
-        - [Part I: **Refill the Reference Cell**](#part-i-refill-the-reference-cell)
-        - [Part II: **Clean the cell**](#part-ii-clean-the-cell)
-      - [**IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...**](#if-the-itc-is-not-going-to-be-in-use-for-several-weeks)
-      - [Common TroubleShooting](#common-troubleshooting)
-        - [Transfer Arm Valve Gets Stuck](#transfer-arm-valve-gets-stuck)
-        - [Initialization & homing fails](#initialization--homing-fails)
-      - [Supplemental Maintenance](#supplemental-maintenance)
-      - [Waste Management/Cleaning](#waste-managementcleaning)
-    - [**References**](#references)
+- [**Instrument Breakdown**](#instrument-breakdown)
+  - [System Overview](#system-overview)
+  - [Primary Interior Components](#primary-interior-components)
+- [**Materials**](#materials)
+  - [Sample: **Protein Macromolecule -and- Ligand micromolecule**](#sample-protein-macromolecule--and--ligand-micromolecule)
+- [**Procedures**](#procedures)
+  - [**General Notes**](#general-notes)
+  - [**Sample Preparation**](#sample-preparation)
+    - [Macromolecule Protein Set Up via **Protein Dialysis**](#macromolecule-protein-set-up-via-protein-dialysis)
+    - [Micromolecule Ligand Set Up](#micromolecule-ligand-set-up)
+    - [Tecan EVO automated Set Up of Plate](#tecan-evo-automated-set-up-of-plate)
+  - [Commonly Used Protocols](#commonly-used-protocols)
+  - [Calculations](#calculations)
+  - [Interpretation of Results](#interpretation-of-results)
+    - [Raw Data](#raw-data)
+    - [Results via `itc-tools`](#results-via-itc-tools)
+- [**Quality Control/Preventative Maintenance Protocols**](#quality-controlpreventative-maintenance-protocols)
+  - [**Weekly Maintenance**](#weekly-maintenance)
+    - [Part I: **Refill the Reference Cell**](#part-i-refill-the-reference-cell)
+    - [Part II: **Clean the cell**](#part-ii-clean-the-cell)
+  - [**IF THE ITC IS NOT GOING TO BE IN USE FOR SEVERAL WEEKS...**](#if-the-itc-is-not-going-to-be-in-use-for-several-weeks)
+  - [Common TroubleShooting](#common-troubleshooting)
+    - [Transfer Arm Valve Gets Stuck](#transfer-arm-valve-gets-stuck)
+    - [Initialization & homing fails](#initialization--homing-fails)
+  - [Supplemental Maintenance](#supplemental-maintenance)
+  - [Waste Management/Cleaning](#waste-managementcleaning)
+- [**References**](#references)
   <!-- /TOC -->
 
 </details>
@@ -187,7 +184,7 @@ Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able ge
 
   - [ ] ITC Destination Plate is at Position 3 of Rack at Grid 43.
 
-### Commonly Used Protocols
+### **Commonly Used Protocols**
 
 The most commonly used script is generated from the [itctools GitHub repository](https://github.com/choderalab/itctools/tree/caii/itctools) (specifically the `experiment.py` script). This python script generates an excel `.xml` spreadsheet that can be imported as an experiment in the MicroCal PEAQ ITC software that automatically defines the cell and syringe sources for each titration series.
 
@@ -220,7 +217,7 @@ There are only two calculations necessary for the set up/running of an ITC exper
 
 **Calculate Molarity of Dialyzed Protein:** Molarity = [Concentration]/molecular_weight
 
-### Interpretation of Results
+### **Interpretation of Results**
 
 #### Raw Data
 
