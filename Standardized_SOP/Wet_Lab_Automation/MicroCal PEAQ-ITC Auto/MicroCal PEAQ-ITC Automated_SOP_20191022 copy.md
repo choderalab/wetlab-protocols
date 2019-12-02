@@ -71,7 +71,7 @@ Click Here to Expand
 | Quantos Dosing Head                 | Metler-Toledo     | QH002-CNMW,QH010-CNMW | Precise dispensing of protein/ligand solids         |
 | Dram Vials (amber glass bottles)    | Fisher            | 03-339-23D            | Long-Term storage of Stock solutions                |
 | 96 well, 1mL, ITC plate             | Thermo Scientific | 260251 & 260252       | Consumable used in experiment                       |
-| TBD                                 | TBD               | TBD                   | Used to cover the ITC Plate after set up            |
+| X-Pierce Sealing Film, Sterile      | Sigma Aldrich     | 1002929879            | Used to cover the ITC Plate after set up            |
 
 ### Sample: **Protein Macromolecule -and- Ligand micromolecule**
 
@@ -154,7 +154,7 @@ Click Here to Expand
 
 3. Store the solution following storage recommendations or in the desiccator until needed.
 
-#### Tecan EVO automated Set Up of Plate
+#### Tecan EVO Automated Set Up of Plate
 
 Utlizing the `choderalab/itctools/itctools/procedures.py` script, we are able generate two Tecan EVO worklist files (`.gwl`) that can be used to set up a plate for ITC experiments. In addition, an `.csv` spreadhseet is produced that can be uploaded to the MicroCal PEAQ-ITC software that automatically fills in the proper commands for the experiments.
 
@@ -190,7 +190,7 @@ The most commonly used script is generated from the [itctools GitHub repository]
 
 - After uploading the `.xml` to the `Experiments` tab on the MicroCal PEAQ-ITC Auto Software, one must make sure to check the finished protocol for possible mistakes.
 
-  **Checklist:**
+#### **Running ITC Checklist:**
 
   - **Set Up Screen is Correct**
 
@@ -205,7 +205,7 @@ The most commonly used script is generated from the [itctools GitHub repository]
 
   - When everything looks good, Press `Validate` in toolbar.
 
-    - [ ] Make sure there is enough diH2O, Detergent, and Ethanol present to run the experiment.
+    - [ ] Make sure there is enough diH2O, Detergent, and Methanol present to run the experiment.
 
       - Reference the window that opens which shows the volume of each liquid consumed and the amount of waste produced by running the experiment.
 
@@ -213,13 +213,13 @@ The most commonly used script is generated from the [itctools GitHub repository]
 
 ### Calculations
 
-There are only two calculations necessary for the set up/running of an ITC experiment.
+There is only one calculations necessary for the set up/running of an ITC experiment:
 
-**Calculate Molarity of Dialyzed Protein:** Molarity = [Concentration]/molecular_weight
+    Molarity = [Concentration]/molecular_weight
 
 ### **Interpretation of Results**
 
-#### Raw Data
+#### **Raw Data**
 
 The temperature difference between the sample cell and the reference cell is converted to power and directly read out as raw data. An example of this is shown in the following image (An injection is a )
 
