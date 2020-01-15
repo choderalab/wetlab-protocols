@@ -1,5 +1,5 @@
 # lab-protocols
-A **Standard Operation Protocol (SOP)** in markdown format for:
+Creating a **Standard Operation Protocol (SOP)** for all in markdown format for:
 
 * Automation Equipment
 	* Software programs
@@ -8,4 +8,4 @@ A **Standard Operation Protocol (SOP)** in markdown format for:
 * Commonly Used Project scripts
 * General Lab Admin
 
-The `SOP_Template.md` can be used to expand library.
+The `SOP_Template.md` should be used to add additional SOPs and expand the ChoderaLab library.
