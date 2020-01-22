@@ -9,7 +9,13 @@
 
 ------------------------------------------------------------------------------
 ## **Adding New Equipment**
-There are two ways to add new equipment to the ChoderaLab group.
+### There are two ways to get to the "Add New Asset" screen on Asset Tiger. You can either:
+* In the Tool Bar, press `Add Asset`
+#### **OR**
+* On the left-hand side of the screen, press the **Puzzle Piece** Image ("Assets")
+  - From the dropdown menu, press "Add an Asset"
+
+### ** 
 
 ### Adding New Maintenaince Tasks
 - ds
@@ -24,4 +30,6 @@ There are two ways to add new equipment to the ChoderaLab group.
 
 ---
 ## **References**
-**Links:** User Manual, Projects that use particular instrument (Lab notebooks), Issue Log, etc.
+* [Asset Tiger](https://www.myassettag.com/assettiger/dashboard)
+* [Asset Tiger `How To` Videos](https://www.myassettag.com/assettiger/videos)
+*
