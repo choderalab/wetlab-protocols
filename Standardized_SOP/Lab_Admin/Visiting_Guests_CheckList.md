@@ -23,7 +23,10 @@ Please follow this guide when inviting guests to the ChoderaLab!
 
 ### Are they giving a Talk?
 - [ ]  **Book a Room** for the Talk
-- [ ]  **Email Guest** on what they can bring
+- [ ]  **Email Guest:**
+    - Request if they could provide a few "Introduction"/"Who am I" slides at the beginning of their slide deck
+    - Do they mind if we record their presentation?
+        - Do they have [Zoom](https://zoom.us/signin) on their laptop?
 
 ### Will their visit include Food (Ordering or Going Out)?
 - [ ]  Figure out where to order food/which restaurant you will like to go to with the Visitor
