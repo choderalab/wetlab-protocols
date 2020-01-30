@@ -12,6 +12,7 @@ An All-In-One Virtual Reality system that does not require a PC. As of November 
 
   - **MSK ID:** Not Needed
   - **Contact:** [Nanome Home Webpage](https://nanome.ai/nanome/)
+      - Personal Contact within Nanome: [Daniel Gruffat](daniel@nanome.ai) (Applications Scientist)
 ---
 ## **Instrument Breakdown**
 *Each VR Oculus Quest Kit Includes:*
@@ -88,6 +89,11 @@ You can download new content from the Oculus Store on your phone or directly fro
 1. Gently pull to remove the inner face spacer foam
 2. Attach the glasses spacer to the back of the inner face spacer foam with the glasses logo facing OUT. Gently press the glasses spacer onto the small fins sticking out of the foam spacer until they click together.
 3. Re-attach the inner face spacer foam to the Oculus Quest VR Headset.
+
+---
+## **Nanome Plugin API**
+* The Nanome Plugin System is a Python-based API that allows users to connect 3rd party tools into the Nanome Virtual Reality Software Tool for Collaborative Molecular Modeling. 
+* If you would like to download a plugin or design your own, See this [link](https://nanome.readthedocs.io/en/latest/#nanome-plugin-api) for help. 
 
 ---
 ## **Quality Control/Preventative Maintenance**
