@@ -12,7 +12,7 @@ An All-In-One Virtual Reality system that does not require a PC. As of November 
 
   - **MSK ID:** Not Needed
   - **Contact:** [Nanome Home Webpage](https://nanome.ai/nanome/)
-      - Personal Contact within Nanome: [Daniel Gruffat](daniel@nanome.ai) (Applications Scientist)
+      - Personal Contact within Nanome: Daniel Gruffat(Applications Scientist): daniel@nanome.ai
 ---
 ## **Instrument Breakdown**
 *Each VR Oculus Quest Kit Includes:*
