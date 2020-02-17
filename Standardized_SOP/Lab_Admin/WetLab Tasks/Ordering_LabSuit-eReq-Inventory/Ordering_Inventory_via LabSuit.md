@@ -1,12 +1,13 @@
 # **LabSuit:Lab Ordering and Lab Inventory Tracking**
 
-[LabSuit](https://app.labsuit.com/login/) is an online lab management software for Research labs. Through the webpage, we are able to **request** any laboratory supplies needed, Have **JDC Approve**/disapprove of the order, then **track** the supply through **ordering**, **receiving**, and **use** in inventory. The General overview for ordering items for the wet lab is:
+[LabSuit](https://app.labsuit.com/login/) is an online lab management software for Research labs. Through the webpage, we are able to **request** any laboratory supplies needed, Have **JDC Approve**/disapprove of the order, then **track** the supply through **ordering**, **receiving**, and **use** in inventory.
 
+The General overview for ordering items for the wet lab is:
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFI7XG5cdEEoUkVRVUVTVCBpdGVtIG9uIExhYlN1aXQpXG5cdEJbSkRDIEFwcHJvdmVzIG9mIE9yZGVyXVxuXHRDKE1hcmsgaXRlbSBhcyBPUkRFUkVEIG9uIExhYlN1aXQpXG5cdEQoTWFyayBpdGVtIGFzIFJFQ0VJVkVEIG9uIExhYlN1aXQpXG5cdEUoSXRlbSBpcyBhZGRlZCB0byBJbnZlbnRvcnkgVGFiKVxuXHRcdFx0QS0tPkI7IEItLT58T3JkZXIgaXRlbSBvbiBlUmVxfEM7IEMtLT58SXRlbSBpcyBkZWxpdmVyZWQgdG8gTVNLQ0N8RDtELS0-RSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFI7XG5cdEEoUkVRVUVTVCBpdGVtIG9uIExhYlN1aXQpXG5cdEJbSkRDIEFwcHJvdmVzIG9mIE9yZGVyXVxuXHRDKE1hcmsgaXRlbSBhcyBPUkRFUkVEIG9uIExhYlN1aXQpXG5cdEQoTWFyayBpdGVtIGFzIFJFQ0VJVkVEIG9uIExhYlN1aXQpXG5cdEUoSXRlbSBpcyBhZGRlZCB0byBJbnZlbnRvcnkgVGFiKVxuXHRcdFx0QS0tPkI7IEItLT58T3JkZXIgaXRlbSBvbiBlUmVxfEM7IEMtLT58SXRlbSBpcyBkZWxpdmVyZWQgdG8gTVNLQ0N8RDtELS0-RSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
 
 
 ## **Table of Contents**
--<!-- TOC -->
+<!-- TOC -->
 - [**LabSuit:Lab Ordering and Lab Inventory Tracking**](#labsuitlab-ordering-and-lab-inventory-tracking)
   - [**Table of Contents**](#table-of-contents)
   - [**General**](#general)
