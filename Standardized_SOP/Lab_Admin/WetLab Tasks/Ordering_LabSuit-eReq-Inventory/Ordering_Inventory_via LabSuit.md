@@ -29,7 +29,7 @@
 ------------------------------------------------------------------------------
 ## **General**
 ### Adding Lab Members
-1. Click the downward arrow arrow_down_small: next to "Chodera" (Name of Lab)
+1. Click the downward arrow :arrow_down_small: next to "Chodera" (Name of Lab)
 2. Within the dropdown menu, choose `Manage Chodera lab`
 ![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Adding%20Lab%20Member-1.png?raw=true)
 
@@ -94,11 +94,31 @@
 4. You will open the "Request" page. **Fill in as much information as possible.** It is best if you can supply as much information as possible when requesting/ordering items to make it easier for the next person to order the same item again. Be sure to include which funds you would like to use to purchase the item: This is the most important in the approval process for JDC. If it is not filled out, he will pause the approval until the correct funds are chosen.
 ![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Requests-2.png?raw=true)
 
-5. When complete, press `Create Request` or `+ Add another Item`. When you are done adding all items for request, you will return back to the "Lab Suit Requests" page. Your request will send an email to JDC for approval. You must wait until
+5. When complete, press `Create Request` or `+ Add another Item`. When you are done adding all items for request, you will return back to the "Lab Suit Requests" page. Your request will send an email to JDC for approval. You must wait until he approves of your request before ordering it.
+   - You should set your email notifications to alert you when the approval of your item goes through.
 
 ### **JDC is the only one who can approve of orders**
+* Although Research Technicians are registered as `Admin` privileges on Lab Suit, ONLY John can approve of orders.
+  - There is also a section where JDC may comment on your request.
+
 ### Changing Item to "Ordered"
-* Adding PO to Item
+Your item has been "Approved" by JDC! So, order it! When you're done, go back to `Requests` LabSuit page.
+1. On the `Requests` LabSuit page, press `Approved` tab. There should be at least a (1) as your item has just been approved!
+![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-1.png?raw=true)
+
+2. Search for your item. On the right, there should now be a button that says `Approved` :arrow_down_small: (Before it was approved, it was in the `New` Tab and it was green and said "Approve :white_check_mark:")
+3. Press the :arrow_down_small: to access the dropdown menu: Select `Ordered` from the list of options
+![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-2.png?raw=true)
+- Your item will now be found in the "Ordered" tab!
+
+4. In the window of your item request, find the `PO# ____` section. Copy/Paste from eReq your PO# (this is important for tracking purposes).
+![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-3.png?raw=true)
+    - If possible, you can also add the `Requisition #` by...
+     1. Press the name of your item. This will open the `Details` menu of your item. Here, you can edit any part of the item (that was previously filled in during "request").
+     2. Scroll down to "Order Details"
+     3. Press `______` space next to the `PO#` or `Requisition #` and enter the number. This can be found on your eReq Activities page, afer you order your item.
+![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-4.png?raw=true)
+
 ### Changing Item to "Received"
 ### Importing Bulk Ordering Requests
 ---
