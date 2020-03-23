@@ -2,10 +2,15 @@
 
 [LabSuit](https://app.labsuit.com/login/) is an online lab management software for Research labs. Through the webpage, we are able to **request** any laboratory supplies needed, Have **JDC Approve**/disapprove of the order, then **track** the supply through **ordering**, **receiving**, and **use** in inventory.
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFI7XG5cdEEoUkVRVUVTVCBpdGVtIG9uIExhYlN1aXQpXG5cdEJbSkRDIEFwcHJvdmVzIG9mIE9yZGVyXVxuXHRDKE1hcmsgaXRlbSBhcyBPUkRFUkVEIG9uIExhYlN1aXQpXG5cdEQoTWFyayBpdGVtIGFzIFJFQ0VJVkVEIG9uIExhYlN1aXQpXG5cdEUoSXRlbSBpcyBhZGRlZCB0byBJbnZlbnRvcnkgVGFiKVxuXHRcdFx0QS0tPkI7IEItLT58T3JkZXIgaXRlbSBvbiBlUmVxfEM7IEMtLT58SXRlbSBpcyBkZWxpdmVyZWQgdG8gTVNLQ0N8RDtELS0-RSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFI7XG5cdEEoUkVRVUVTVCBpdGVtIG9uIExhYlN1aXQpXG5cdEJbSkRDIEFwcHJvdmVzIG9mIE9yZGVyXVxuXHRDKE1hcmsgaXRlbSBhcyBPUkRFUkVEIG9uIExhYlN1aXQpXG5cdEQoTWFyayBpdGVtIGFzIFJFQ0VJVkVEIG9uIExhYlN1aXQpXG5cdEUoSXRlbSBpcyBhZGRlZCB0byBJbnZlbnRvcnkgVGFiKVxuXHRcdFx0QS0tPkI7IEItLT58T3JkZXIgaXRlbSBvbiBlUmVxfEM7IEMtLT58SXRlbSBpcyBkZWxpdmVyZWQgdG8gTVNLQ0N8RDtELS0-RSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
+![](https://mermaid-js.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoiZ3JhcGggTFI7XG5cdEEoUkVRVUVTVCBpdGVtIG9uIExhYlN1aXQpXG5cdEJbSkRDIEFwcHJvdmVzIG9mIE9yZGVyXVxuXHRDKE1hcmsgaXRlbSBhcyBPUkRFUkVEIG9uIExhYlN1aXQpXG5cdEQoTWFyayBpdGVtIGFzIFJFQ0VJVkVEIG9uIExhYlN1aXQpXG5cdEUoSXRlbSBpcyBhZGRlZCBhdXRvbWF0aWNhbGx5IHRvIEludmVudG9yeSBUYWIpXG5cdFx0XHRBLS0-QjsgQi0tPnxPcmRlciBpdGVtIG9uIGVSZXF8QzsgQy0tPnxJdGVtIGlzIGRlbGl2ZXJlZCB0byBNU0tDQ3xEO0QtLT5FIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
+# **Important to Remember!** _You have to put the data_ **IN** _in order to get the data_ **OUT!**
 
 ## **Table of Contents**
+<details><summary>
+Click Here to Expand
+</summary>
+
 <!-- TOC -->
 - [**LabSuit:Lab Ordering and Lab Inventory Tracking**](#labsuitlab-ordering-and-lab-inventory-tracking)
   - [**Table of Contents**](#table-of-contents)
@@ -25,8 +30,9 @@
     - [Bulk Import/Export of Invenotry Items](#bulk-importexport-of-invenotry-items)
   - [**References**](#references)
 <!-- /TOC -->
+</details>
 
-------------------------------------------------------------------------------
+---
 ## **General**
 ### Adding Lab Members
 1. Click the downward arrow :arrow_down_small: next to "Chodera" (Name of Lab)
@@ -102,24 +108,26 @@
   - There is also a section where JDC may comment on your request.
 
 ### Changing Item to "Ordered"
-Your item has been "Approved" by JDC! So, order it! When you're done, go back to `Requests` LabSuit page.
+Your item has been "Approved" by JDC...So, order it! When you're done, go back to `Requests` LabSuit page.
 1. On the `Requests` LabSuit page, press `Approved` tab. There should be at least a (1) as your item has just been approved!
 ![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-1.png?raw=true)
 
 2. Search for your item. On the right, there should now be a button that says `Approved` :arrow_down_small: (Before it was approved, it was in the `New` Tab and it was green and said "Approve :white_check_mark:")
 3. Press the :arrow_down_small: to access the dropdown menu: Select `Ordered` from the list of options
 ![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-2.png?raw=true)
-- Your item will now be found in the "Ordered" tab!
+    - Your item will now be found in the "Ordered" tab!
 
 4. In the window of your item request, find the `PO# ____` section. Copy/Paste from eReq your PO# (this is important for tracking purposes).
 ![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-3.png?raw=true)
     - If possible, you can also add the `Requisition #` by...
-     1. Press the name of your item. This will open the `Details` menu of your item. Here, you can edit any part of the item (that was previously filled in during "request").
-     2. Scroll down to "Order Details"
-     3. Press `______` space next to the `PO#` or `Requisition #` and enter the number. This can be found on your eReq Activities page, afer you order your item.
+        - Press the name of your item. This will open the `Details` menu of your item. Here, you can edit any part of the item (that was previously filled in during "request").
+        - Scroll down to "Order Details"
+        - Press `______` space next to the `PO#` or `Requisition #` and enter the number. This can be found on your eReq Activities page, afer you order your item.
 ![](https://github.com/choderalab/wetlab-protocols/blob/EAG_SOP-Updates/Standardized_SOP/Lab_Admin/WetLab%20Tasks/Ordering_LabSuit-eReq-Inventory/Lab-Suit-Photos/Ordered-4.png?raw=true)
 
 ### Changing Item to "Received"
+
+
 ### Importing Bulk Ordering Requests
 ---
 ## **Lab Inventory**
