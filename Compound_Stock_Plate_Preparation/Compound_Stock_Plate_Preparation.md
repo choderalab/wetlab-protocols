@@ -1,4 +1,4 @@
-#A simple protocol to create 10mM DMSO stock plates.
+# A simple protocol to create 10mM DMSO stock plates.
 
 This protocol fills 4ti0110 plates with 10mM DMSO stocks. Each well is filled with 100uL of stock solution. The plate then gets sealed (this seal can be pierced in other experiments). 
 
