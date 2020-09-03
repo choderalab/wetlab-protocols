@@ -140,4 +140,4 @@ Your item has been "Approved" by JDC...So, order it! When you're done, go back t
 * [Lab Suit Support](http://support.labsuit.com/)
 * [Lab Suit Demo Videos](https://www.youtube.com/LabsuitService)
 * [Lab Suit Onboarding](https://app.labsuit.com/dashboard/#my-lab/onboarding)
-  - This is very useful to go through when first creating an account on LabSuit
+  - This is a very useful guide to go through when first creating an account on LabSuit
