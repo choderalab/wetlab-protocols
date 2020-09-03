@@ -7,7 +7,7 @@ This protocol fills 4ti0110 plates with 10mM DMSO stocks. Each well is filled wi
 ## Relevant Scripts
 - Momentum Process: WIP_JDC_PrepareCompoundStockPlates_4ti0110
 - Momentum Experiment: E_WIP_JDC_PrepareCompoundStockPlates_4ti0110
-- EVO Scripts: WIP_LRL_CreateCompoundStockPlates_05oct2015.esc
+- EVO Scripts: WIP_LR_CreateCompoundStockPlates_05oct2015.esc
 
 ## Procedure
 ![alt text](img/EVO_deck.png "EVO_deck.png")
@@ -30,6 +30,12 @@ To make only 4 rows and 6 columns:
 
 - Run Momentum Script E_EXP_PrepareCompoundStockPlates_4ti0110_4rows
 - This uses EVO Script EXP_CreateCompoundStockPlate_6cols_4rows.esc
+
+To make 8 rows (4 rows x2 for an experiment with 2 proteins, and 4 ligands), 6 columns by default
+This uses only 4 vials of ligand, but fills 8 rows.
+- Run Momentum Script E_EXP_PrepareCompoundStockPlates_4ti0110_8rows_2proteins
+- Use the EVO Script EXP_CreateCompoundStockPlate_8rows_2proteins
+
 
 ## Storage
 - Store in room temperature PlateStable.
